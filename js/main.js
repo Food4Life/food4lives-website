@@ -173,7 +173,7 @@
 						
 						
                         $({ Counter: 0 }).animate({ Counter: text }, {
-                            duration: 3000,
+                            duration: 2000,
                             easing: 'swing',
                             step: function (curValue) {
                                 $this.text(Math.ceil(curValue)+suffix);
