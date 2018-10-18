@@ -42,6 +42,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+    <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
+
 </head>
 
 <body id="top">
@@ -130,21 +133,10 @@ With the support of volunteers, the food for life is helping homeless to build a
                         Explore More!
                     </a> -->
 					
-					<form action="https://wt-9eb1c11646bb35fc6745480e6520100c-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=2000&description=Test%20item" method="POST">
-					<script
-					  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-					  data-key="pk_test_aZndWZQgqgRN0PzsytuAOm00"
-					  data-amount="2000"
-					  data-name="Food For Life "
-					  data-description="Feeding Hungry People, Healthy Meals"
-					  data-locale="auto">
-					</script>
-					<script>
-						// Hide default stripe button, be careful there if you
-						// have more than 1 button of that class
-						document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
-					</script>
-					<button type="submit" class="btn btn--stroke btn-donate"><i class="fa fa-heart"></i> Donate</button>
+					<form>
+                    <a href="https://donorbox.org/food4lives-donation" class="custom-dbox-popup btn btn--stroke btn-donate">
+                        <i class="fa fa-heart"></i> Donate
+                    </a>
 				  </form>
                       <!-- <a href="#about" class="smoothscroll btn btn--stroke btn-donate">
                         <i class="fa fa-heart"></i> Donate
