@@ -9,12 +9,11 @@ $(document).ready(function () {
     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
   ];
 
-  $.get('https://www.eventbriteapi.com/v3/events/search/?token=KD7P2QC25Y3UVP5DRWS4&organizer.id=18079396040', function (data, status) {
+  $.get('https://www.eventbriteapi.com/v3/events/search/?sort_by=date&organizer.id=18079396040&token=KD7P2QC25Y3UVP5DRWS4', function (data, status) {
     var events = data.events;
     if (events.length == 0) {
       $('#no-upcoming').removeClass('hidden');
     } else {
-      console.log(events.length);
       events.forEach(function (elem) {
         var d = new Date(elem.start.utc);
         var month = monthNames[d.getMonth()];
