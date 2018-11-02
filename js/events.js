@@ -20,9 +20,6 @@ $(document).ready(function () {
         var month = monthNames[d.getMonth()];
         var eventItem = makeEvent(elem.name.text, elem.url, month, d.getDate(), d.getFullYear());
         $('#event-list').append(eventItem);
-        $('#event-list').append(eventItem);
-        $('#event-list').append(eventItem);
-        $('#event-list').append(eventItem);
       });
     }
   });
