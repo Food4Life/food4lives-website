@@ -35,14 +35,16 @@ $(document).ready(function () {
 
 function makeEvent(name, url, month, day, year) {
   return `<li>
-    <time>
+<!--height: 250px;-->
+    <time style=" background-color: rgb(var(--pure-material-primary-rgb,255,112,67)); font-family: 'Josefin Sans', sans-serif; line-height: 150px; vertical-align:  center; text-align: center;">
       <span class="day">${day}</span>
       <span class="month">${month}</span>
       <span class="year">${year}</span>
       <span class="time">ALL DAY</span>
     </time>
-    <div class="info">
-      <h2 class="title" style="font-size: 2em;margin: 4px;">${name}</h2>
+    <!--height: 250px;-->
+    <div class="info" style="">
+      <h2 class="title" style="font-size: 2em;margin: 4px;font-family: 'Josefin Sans', sans-serif;">${name}</h2>
       <button onclick="window.open('${url}', '_blank');" style="margin: 10px;" type="button" class="btn btn-success">RSVP</button>
       <button onclick="window.open('${url}', '_blank');" style="margin: 10px;" type="button" class="btn btn-warning">More Details</button>
     </div>

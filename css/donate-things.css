@@ -1,0 +1,557 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.75em/1.38 Ubuntu;
+  color: rgb(255, 255, 255);
+}
+
+.bottombar {
+  float: left;
+  width: 100%;
+  height: 165px;
+}
+
+.bottombar .bottombar {
+  position: relative;
+  /*z-index: 5;*/
+  background-color: rgb(0, 0, 0);
+}
+
+.call {
+  position: relative;
+  float: left;
+  /*z-index: 3;*/
+  width: 20.0833333333%;
+  min-height: 67px;
+  margin: -294px 0 0 39.91276%;
+  font-size: 1.667em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.callicon {
+  position: relative;
+  float: left;
+  /*z-index: 9;*/
+  width: 9.9166666666%;
+  height: 118px;
+  margin: -436px 0 0 45.09375%;
+  background-image: url('../images/contact-01(2).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.clothesicon {
+  position: relative;
+  float: left;
+  /*z-index: 11;*/
+  width: 9.9166666666%;
+  height: 118px;
+  margin: -436px 0 0 17.66146%;
+  background-image: url('../images/clothes-01(2).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.collect {
+  position: relative;
+  float: left;
+  /*z-index: 2;*/
+  width: 17%;
+  min-height: 67px;
+  margin: -294px 0 0 14.57813%;
+  font-size: 1.667em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.donate {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 71.1653645833%;
+  ///*z-index: 15;*/
+  width: 6.8333333333%;
+  border-radius: 3px;
+  font-size: 1.333em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.donate:hover,
+.volunteer:hover {
+  color: rgb(86, 192, 194);
+}
+
+.dropoff {
+  position: relative;
+  float: left;
+  /*z-index: 4;*/
+  width: 13.5989583333%;
+  min-height: 67px;
+  margin: -294px 0 0 70.40104%;
+  font-size: 1.667em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.dropofficon {
+  position: relative;
+  float: left;
+  /*z-index: 10;*/
+  width: 9.9166666666%;
+  height: 118px;
+  margin: -436px 0 0 72.33073%;
+  background-image: url('../images/charity%20van-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*z-index: 13;*/
+  width: 100%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+.image {
+  position: relative;
+  float: left;
+  /*z-index: 0;*/
+  width: 100%;
+  height: 750px;
+  margin-top: 46px;
+  background: url('../images/IMG-20181115-WA0024.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 3.125%;
+  /*z-index: 17;*/
+  width: 10.75%;
+  height: 20px;
+  min-height: 10px;
+  font-size: 1.667em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.menubar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*z-index: 18;*/
+  width: 100%;
+  height: 46px;
+}
+
+.overlay {
+  position: relative;
+  float: left;
+  clear: both;
+  /*z-index: 1;*/
+  width: 100%;
+  height: 750px;
+  margin-top: -750px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sponsor {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 81.1653645833%;
+  /*z-index: 14;*/
+  width: 18.8333333333%;
+  height: 46px;
+  background-color: rgb(255, 148, 2);
+  font-size: 1.667em;
+  font-weight: 500;
+  line-height: 2.18;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.sponsor:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 148, 2);
+}
+
+.text {
+  position: relative;
+  float: left;
+  width: 40.8333333333%;
+  min-height: 10px;
+  font-size: 1em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.title {
+  position: relative;
+  float: left;
+  /*z-index: 12;*/
+  width: 68%;
+  min-height: 58px;
+  margin: -576px 0 0 16%;
+  font-size: 4.833em;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.volunteer {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 58.5833333333%;
+  /*z-index: 16;*/
+  width: 9.8333333333%;
+  border-radius: 3px;
+  font-size: 1.333em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.text-1 {
+  clear: both;
+  /*z-index: 6;*/
+  margin: -99px 0 0 29.48698%;
+}
+
+.text-2 {
+  /*z-index: 7;*/
+  height: 32px;
+  margin: -52px 0 0 28.71875%;
+}
+
+@media(max-width: 1350px) {
+  body {
+    font-size: 0.625em;
+  }
+
+  .bottombar .bottombar {
+    position: relative;
+    /*z-index: 5;*/
+  }
+
+  .bottombar .text {
+    position: relative;
+    font-size: 10px;
+  }
+
+  .call {
+    position: relative;
+    /*z-index: 3;*/
+    margin-left: 39.91148%;
+    font-size: 1.4em;
+  }
+
+  .callicon {
+    position: relative;
+    /*z-index: 9;*/
+    width: 15%;
+    margin-left: 43.19871%;
+  }
+
+  .clothesicon {
+    position: relative;
+    /*z-index: 11;*/
+    width: 15%;
+    margin-left: 15.19815%;
+  }
+
+  .collect {
+    position: relative;
+    /*z-index: 2;*/
+    margin-left: 14.57756%;
+    font-size: 1.4em;
+  }
+
+  .dropoff {
+    position: relative;
+    /*z-index: 4;*/
+    margin-left: 70.40071%;
+    font-size: 1.4em;
+  }
+
+  .dropofficon {
+    position: relative;
+    /*z-index: 10;*/
+    width: 15%;
+    margin-left: 69.6%;
+  }
+
+  .image {
+    position: relative;
+    /*z-index: 0;*/
+  }
+
+  .menubar .donate {
+    top: 14px;
+    left: 71.1672127016%;
+    font-size: 1.2em;
+  }
+
+  .menubar .logo {
+    font-size: 2em;
+  }
+
+  .menubar .sponsor {
+    font-size: 1.4em;
+  }
+
+  .menubar .volunteer {
+    top: 14px;
+    left: 58.5853074596%;
+    font-size: 1.2em;
+  }
+
+  .overlay {
+    position: relative;
+    /*z-index: 1;*/
+  }
+
+  .title {
+    position: relative;
+    /*z-index: 12;*/
+    margin-left: 15.9983%;
+    font-size: 3.5em;
+  }
+
+  .bottombar .text-1 {
+    /*z-index: 6;*/
+    margin-left: 29.48589%;
+  }
+
+  .bottombar .text-2 {
+    /*z-index: 7;*/
+    margin-left: 28.71724%;
+  }
+}
+
+@media(max-width: 980px) {
+  .bottombar .bottombar {
+    position: relative;
+    /*z-index: 5;*/
+  }
+
+  .bottombar .text {
+    position: relative;
+    font-size: 0.8em;
+  }
+
+  .call {
+    position: relative;
+    /*z-index: 3;*/
+    margin-left: 39.91089%;
+  }
+
+  .callicon {
+    position: relative;
+    /*z-index: 9;*/
+    margin-left: 42.39909%;
+  }
+
+  .clothesicon {
+    position: relative;
+    /*z-index: 11;*/
+    margin-left: 15.19979%;
+  }
+
+  .collect {
+    position: relative;
+    /*z-index: 2;*/
+    margin-left: 14.57723%;
+  }
+
+  .dropoff {
+    position: relative;
+    /*z-index: 4;*/
+    margin-left: 70.39795%;
+  }
+
+  .dropofficon {
+    position: relative;
+    /*z-index: 10;*/
+    margin-left: 69.59839%;
+  }
+
+  .image {
+    position: relative;
+    /*z-index: 0;*/
+  }
+
+  .overlay {
+    position: relative;
+    /*z-index: 1;*/
+  }
+
+  .title {
+    position: relative;
+    /*z-index: 12;*/
+    margin-left: 15.99528%;
+      font-size: 3em;
+  }
+
+  .bottombar .text-1 {
+    /*z-index: 6;*/
+    margin-left: 29.48405%;
+  }
+
+  .bottombar .text-2 {
+    /*z-index: 7;*/
+    margin-left: 28.71501%;
+  }
+}
+
+@media(max-width: 850px) {
+  body {
+    font-size: 0.625em;
+  }
+
+  .bottombar {
+    position: relative;
+    /*z-index: 8;*/
+  }
+
+  .bottombar .bottombar {
+    position: relative;
+    /*z-index: 5;*/
+  }
+
+  .bottombar .text {
+    position: relative;
+  }
+
+  .call {
+    position: relative;
+    /*z-index: 3;*/
+    width: 40.625%;
+    height: 5px;
+    margin-top: -300px;
+    /*margin-top: -100px;*/
+    margin-left: 29.79167%;
+    font-size: 1.2em;
+  }
+
+  .callicon {
+    position: relative;
+    /*z-index: 9;*/
+    width: 20.21%;
+    height: 100px;
+    /*margin-top: -310px;*/
+      margin-top: -400px;
+      margin-left: 39.2806%;
+  }
+
+  .clothesicon {
+    position: relative;
+    /*z-index: 11;*/
+    width: 20.21%;
+    height: 100px;
+    /*margin-top: -475px;*/
+    margin-top: -585px;
+    margin-left: 39.2806%;
+  }
+
+  .collect {
+    position: relative;
+    /*z-index: 2;*/
+    width: 80%;
+    /*margin-top: -364px;*/
+    margin-top: -484px;
+    /*margin-left: 29.58008%;*/
+    font-size: 1.2em;
+  }
+
+  .dropoff {
+    position: relative;
+    /*z-index: 4;*/
+    width: 40.8333333333%;
+    height: 10px;
+    margin-top: -100px;
+    margin-left: 29.58008%;
+    font-size: 1.2em;
+  }
+
+  .dropofficon {
+    position: relative;
+    /*z-index: 10;*/
+    width: 20.21%;
+    height: 100px;
+    margin-top: -204px;
+    margin-left: 39.2806%;
+  }
+
+  .image {
+    position: relative;
+    /*z-index: 0;*/
+  }
+
+  .menubar .donate {
+    left: 69.5833333333%;
+    width: 8.5416666666%;
+    font-size: 0.8em;
+  }
+
+  .menubar .logo {
+    font-size: 1.4em;
+  }
+
+  .menubar .sponsor {
+    font-size: 0.8em;
+  }
+
+  .menubar .volunteer {
+    left: 56.875%;
+    width: 11.4583333333%;
+    font-size: 0.8em;
+  }
+
+  .overlay {
+    position: relative;
+    /*z-index: 1;*/
+  }
+
+  .title {
+    position: relative;
+    /*z-index: 12;*/
+      margin-top: -650px;
+    margin-left: 15.99284%;
+    font-size: 1.5em;
+  }
+
+  .bottombar .text-1 {
+    /*z-index: 6;*/
+    margin-left: 29.48242%;
+  }
+
+  .bottombar .text-2 {
+    /*z-index: 7;*/
+    margin-left: 28.71419%;
+  }
+
+  .bottombar-1 {
+    clear: both;
+    margin-top: -29px;
+  }
+}

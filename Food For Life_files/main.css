@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-input::placeholder{
-    color: #FFF;
-}
-/*bodykasjdbc*/
 /* ===================================================================
  *
  *  Glint v1.0 Main Stylesheet
@@ -97,13 +93,13 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #ff7043;
+    color: #0087cc;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 a:hover, a:focus, a:active {
-    color: #ff7043;
+    color: #1565C0;
 }
 
 a:hover, a:active {
@@ -383,7 +379,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #ff7043;
+    color: #1565C0;
 }
 
 dd {
@@ -509,7 +505,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #ff7043;
+    background: #1565C0;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -552,7 +548,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #ff7043;
+    background-color: #1565C0;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -628,7 +624,7 @@ select {
     padding: 1.5rem 0;
     border: 0;
     outline: none;
-    color: #F1F1F1;
+    color: #333333;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
@@ -708,7 +704,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: #F1F1F1;
+    color: #000000;
     border-bottom: 2px solid black;
 }
 
@@ -746,25 +742,25 @@ label > input[type="radio"] {
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-    color: #FFF;
+    color: #828282;
 }
 
 :-moz-placeholder {
-    color: #FFF;
+    color: #828282;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #FFF;
+    color: #828282;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #FFF;
+    color: #828282;
 }
 
 .placeholder {
-    color: #FFF !important;
+    color: #828282 !important;
 }
 
 
@@ -779,7 +775,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #ff7043;
+    -webkit-text-fill-color: #1565C0;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -840,8 +836,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #ff7043;
-    border-color: #ff7043;
+    background: #1565C0;
+    border-color: #1565C0;
     color: #FFFFFF;
 }
 
@@ -855,9 +851,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #fff;
-    border-color: #ff7043;
-    color: #ff7043;
+    background: #33a242;
+    border-color: #33a242;
 }
 
 
@@ -881,8 +876,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #ff7043;
-    color: #ff7043;
+    border: 0.2rem solid #1565C0;
+    color: #1565C0;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1111,7 +1106,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #ff7043;
+    color: #1565C0;
 }
 
 .stats-tabs li a em {
@@ -1256,7 +1251,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #ff7043;
+    color: #1565C0;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1310,16 +1305,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 3rem;
     }
 }
-/* -------------------------------------------------------------------
- * ## Gofundme Ad
- * ------------------------------------------------------------------- */
-#gofundmead{
-    height: 50px;
-    width: 100%;
-    background-color: rgb(var(--pure-material-primary-rgb,255,112,67));
-    border-color: rgb(var(--pure-material-primary-rgb,255,112,67));
-    /*margin-bottom: 100px;*/
-}
+
 
 /* -------------------------------------------------------------------
  * ## section header
@@ -1441,7 +1427,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #ff7043;
+    background: #1565C0;
 }
 
 
@@ -1456,6 +1442,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-color: #373737;
     position: fixed;
     /*position: absolute;*/
+    top: 0;
     z-index: 500;
 }
 
@@ -1539,7 +1526,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #ff7043;
+    color: #1565C0;
 }
 
 .header-nav p {
@@ -1618,7 +1605,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     height: 2px;
     width: 12px;
-    background-color: #000;
+    background-color: #FFFFFF;
     position: absolute;
     top: 50%;
     left: 9px;
@@ -1677,7 +1664,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #ff7043;
+    color: #1565C0;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     visibility: hidden;
@@ -1816,8 +1803,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .6;
-    /*background-color: #b5b6b7;*/
-    background-color: #393c42;
+    background-color: #b5b6b7;
     /*background: url('../images/hero-bg.jpg');*/
 }
 
@@ -1918,8 +1904,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #ff7043;
-    border-right: 2px solid #ff7043;
+    border-bottom: 2px solid #1565C0;
+    border-right: 2px solid #1565C0;
     content: '';
     display: block;
     height: 8px;
@@ -1943,7 +1929,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #ff7043;
+    background-color: #1565C0;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -2003,7 +1989,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #ff7043;
+    color: #1565C0;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2263,7 +2249,6 @@ html.no-csstransitions .home-content__main {
     background-color: rgb(var(--pure-material-primary-rgb,255,112,67));
     color: #010507;
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2434,8 +2419,9 @@ html.no-csstransitions .home-content__main {
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
-    padding-left: 90px;
+    padding-left: 80px;
 }
+
 
 /* -------------------------------------------------------------------
  * ## services list
@@ -2444,84 +2430,9 @@ html.no-csstransitions .home-content__main {
     margin-top: 6rem;
     text-align: center;
     margin-left: 35px;
-    display: flex;
-    font-family: 'Josefin Sans', sans-serif;
     /*width: 800px;*/
     /*margin-right: 50px;*/
 
-}
-
-@media only screen and (max-width: 1600px) {
-    .s-services{
-        padding-left: 90px;
-    }
-}
-@media only screen and (max-width: 1400px) {
-    .s-services{
-        padding-left: 70px;
-    }
-}
-@media only screen and (max-width: 1300px) {
-    .s-services{
-        padding-left: 55px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .s-services{
-        padding-left: 0px;
-    }
-    .services-list{
-        display: table;
-        padding-left: 300px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .services-list{
-        display: table;
-        padding-left: 290px;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    .services-list{
-        display: table;
-        padding-left: 240px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .services-list{
-        display: table;
-        padding-left: 220px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .services-list{
-        display: table;
-        padding-left: 165px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .services-list{
-        display: table;
-        padding-left: 105px;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .services-list{
-        display: table;
-        padding-left: 50px;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .services-list{
-        display: table;
-        padding-left: 0px;
-    }
 }
 
 .services-list .service-item {
@@ -2567,7 +2478,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .service-icon i img{
-    width: 150px;
+    width: 50px;
     text-align: center;
     margin-bottom: 35px;
     margin-top: 35px;
@@ -3142,7 +3053,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #ff7043;
+    background: #1565C0;
 }
 
 .s-contact .form-field label::after {
@@ -3153,14 +3064,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #ff7043;
+    border-right: 5px solid #1565C0;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #ff7043;
+    background-color: #1565C0;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3170,8 +3081,7 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
-    /*color: rgba(255, 255, 255, 0.4);*/
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.4);
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3188,7 +3098,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #ff7043;
+    color: #1565C0;
 }
 
 .contact-content input[type="email"],
@@ -3215,7 +3125,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #ff7043;
+    border-bottom: 1px solid #1565C0;
 }
 
 .contact-content button,
@@ -3225,31 +3135,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #FFF;
+    color: #4f4f4f;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #FFF;    /* Firefox 18- */
+    color: #4f4f4f;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #FFF;    /* Firefox 19+ */
+    color: #4f4f4f;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #FFF;
+    color: #4f4f4f;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #FFF !important;
+    color: #4f4f4f !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3306,7 +3216,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-    color: #ff7043;
+    color: #1565C0;
 }
 
 .contact-social li:last-child {
@@ -3329,7 +3239,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #ff7043;
+    color: #1565C0;
 }
 
 .message-warning i, .message-success i {
@@ -3501,15 +3411,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 footer {
     padding: 9rem 0 6rem;
-    /*font-family: "montserrat-light", sans-serif;*/
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17.5px;
-    font-weight: bolder;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 15px;
     line-height: 2;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    /*color: rgba(255, 255, 255, 0.3);*/
-    color: #ff7043;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 footer h4 {
@@ -3525,7 +3431,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #ff7043;
+    color: #1565C0;
 }
 
 footer .row {
@@ -3617,8 +3523,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #ff7043;
-    border-color: #ff7043;
+    background: #1565C0;
+    border-color: #1565C0;
     padding: 0 20px;
 }
 

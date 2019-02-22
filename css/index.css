@@ -1,0 +1,1867 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.25em/1.38 Ubuntu;
+  color: rgb(0, 0, 0);
+}
+
+.action1 {
+  position: relative;
+  float: left;
+  z-index: 19;
+  width: 188px;
+  margin: -421px 0 0 17.76563%;
+}
+
+.action1 .element {
+  z-index: 14;
+  width: 99.4680851063%;
+  height: 308px;
+  background-color: rgb(255, 255, 255);
+}
+
+.action1 .givenow {
+  z-index: 17;
+  width: 67.0882936507%;
+  min-height: 10px;
+  margin: -74px 0 0 19.45645%;
+  font-size: 0.8em;
+  color: rgb(86, 192, 194);
+}
+
+.action1 .text {
+  width: 72.4867724867%;
+}
+
+.action2 {
+  position: relative;
+  float: left;
+  z-index: 31;
+  width: 188px;
+  height: 308px;
+  margin: -421px 0 0 43.16667%;
+}
+
+.action2 .donate {
+  position: relative;
+  float: left;
+  z-index: 29;
+  width: 67.4451462765%;
+  min-height: 10px;
+  margin: -73px 0 0 14.60273%;
+  font-size: 0.8em;
+  text-align: center;
+  color: rgb(86, 192, 194);
+}
+
+.action2 .donate:hover {
+  color: rgb(255, 148, 2);
+}
+
+.action2 .element {
+  z-index: 26;
+  width: 100%;
+  height: 308px;
+  background-color: rgb(255, 255, 255);
+}
+
+.action3 {
+  position: relative;
+  float: left;
+  z-index: 25;
+  width: 188px;
+  height: 308px;
+  margin: -421px 0 0 69.59896%;
+}
+
+.action3 .element {
+  z-index: 20;
+  width: 99.4680851063%;
+  height: 308px;
+  background-color: rgb(255, 255, 255);
+}
+
+.action3 .volunteer {
+  position: relative;
+  float: left;
+  z-index: 24;
+  width: 67.0882936507%;
+  min-height: 10px;
+  margin: -71px 0 0 18.17653%;
+  font-size: 0.8em;
+  color: rgb(86, 192, 194);
+}
+
+.action1 .givenow:hover,
+.action3 .volunteer:hover {
+  color: rgb(255, 148, 2);
+}
+
+.actionbar {
+  position: relative;
+  float: left;
+  z-index: 32;
+  width: 100%;
+  height: 511px;
+}
+
+.actionimage {
+  position: relative;
+  float: left;
+  z-index: 11;
+  width: 100%;
+  height: 511px;
+  background: url('../images/cropped.jpg') rgba(255, 148, 2, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.actiontitle {
+  position: relative;
+  float: left;
+  z-index: 13;
+  width: 53.5833333333%;
+  min-height: 47px;
+  margin: -489px 0 0 23.59896%;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.blackoverlay {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 45;
+  width: 100%;
+  height: 578px;
+  margin-top: -578px;
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.bottombar {
+  position: relative;
+  float: left;
+  height: 529px;
+}
+
+.bottombar .bottombar {
+  z-index: 33;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.bottombar .text {
+  width: 40.8374165971%;
+  min-height: 10px;
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.clothing {
+  position: relative;
+  float: left;
+  z-index: 52;
+  width: 19.4166666666%;
+  min-height: 47px;
+  margin: -162px 0 0 40.41667%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.clothingicon {
+  position: relative;
+  float: left;
+  z-index: 49;
+  width: 11.75%;
+  height: 141px;
+  margin: -335px 0 0 44%;
+  background-image: url('../images/clothes%20a-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.donate {
+  display: block;
+}
+
+.donateicon {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 18;
+  width: 58px;
+  height: auto;
+  margin: -296px 0 0 37.2008%;
+  overflow: hidden;
+}
+
+.donatethingsicon {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 30;
+  width: 58px;
+  height: auto;
+  margin: -296px 0 0 35.0814499999%;
+  overflow: hidden;
+}
+
+.educate {
+  position: relative;
+  float: left;
+  z-index: 53;
+  width: 19.4166666666%;
+  min-height: 47px;
+  margin: -162px 0 0 64.58203%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.element {
+  position: relative;
+  float: left;
+}
+
+.email {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 38;
+  width: 48.8159937888%;
+  height: 34px;
+  margin: -391px 0 0 39.35445%;
+  padding: 5px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(242, 242, 242);
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.7);
+  resize: none;
+}
+
+.food {
+  position: relative;
+  float: left;
+  z-index: 51;
+  width: 18.2825520833%;
+  min-height: 47px;
+  margin: -162px 0 0 16.79948%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.foodicon {
+  position: relative;
+  float: left;
+  z-index: 48;
+  width: 11.75%;
+  height: 141px;
+  margin: -335px 0 0 20.16667%;
+  background-image: url('../images/meal-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.frontimage {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 100%;
+  height: 770px;
+  margin-top: 46px;
+}
+
+.frontimage .donate {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 12.8333333333%;
+  height: 39px;
+  margin: -132px 0 0 51.59896%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.78;
+  text-align: center;
+  color: rgb(255, 148, 2);
+}
+
+.frontimage .donate:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  background-color: rgb(255, 148, 2);
+  color: rgb(255, 255, 255);
+}
+
+.frontimage .volunteer {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 12.8333333333%;
+  height: 39px;
+  margin: -132px 0 0 36.39974%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.frontimage .volunteer:hover {
+  background-color: rgba(221, 221, 221, 0.7);
+  color: rgb(255, 255, 255);
+}
+
+.givenow {
+  display: block;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 55;
+  width: 100%;
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+.image {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 374px;
+  background: url('../images/WhatsApp%20Image%202018-09-29%20at%206.03.05%20PM.jpeg'), url('../images/Cover1.jpeg') rgb(222, 222, 222);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-attachment: scroll, scroll;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 3.125%;
+  z-index: 59;
+  width: 10.75%;
+  height: 20px;
+  min-height: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 60;
+  width: 100%;
+  height: 46px;
+}
+
+.menubar .donate {
+  position: absolute;
+  top: 10px;
+  left: 71.1653645833%;
+  z-index: 57;
+  width: 6.8333333333%;
+  border-radius: 3px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.menubar .donate:hover {
+  color: rgb(86, 192, 194);
+}
+
+.menubar .volunteer {
+  position: absolute;
+  top: 10px;
+  left: 58.5833333333%;
+  z-index: 58;
+  width: 9.8333333333%;
+  border-radius: 3px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.menubar .volunteer:hover {
+  color: rgb(86, 192, 194);
+}
+
+.messagetextarea {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 39;
+  width: 88.1769215838%;
+  height: 128px;
+  margin-top: -336px;
+  padding: 5px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(242, 242, 242);
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.7);
+  resize: none;
+}
+
+.mission {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 61.5833333333%;
+  min-height: 77px;
+  margin: -235px 0 0 19.5%;
+  font-size: 2.9em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 37;
+  width: 37.8129852484%;
+  height: 34px;
+  margin-top: -391px;
+  padding: 5px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.7);
+  resize: none;
+}
+
+.orangeoverlay {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 100%;
+  height: 511px;
+  margin-top: -511px;
+  background-color: rgba(255, 148, 2, 0.8);
+}
+
+.ourapproach {
+  position: relative;
+  float: left;
+}
+
+.ourapproach .ourapproach {
+  z-index: 46;
+  width: 53.5833333333%;
+  min-height: 47px;
+  margin: -527px 0 0 23.59896%;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 148, 2);
+}
+
+.ourapproachtitle {
+  position: relative;
+  float: left;
+  z-index: 47;
+  width: 68%;
+  min-height: 35px;
+  margin: -473px 0 0 16%;
+  font-size: 2.9em;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.overlay {
+  position: relative;
+  float: left;
+  z-index: 44;
+  width: 100%;
+  height: 578px;
+  background: url('../images/IMG-20181103-WA0006.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.send-message {
+  float: left;
+  width: 99.8618583684%;
+  height: 284px;
+}
+
+.sendmessage {
+  position: relative;
+  float: left;
+}
+
+.sponsor {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 81.1653645833%;
+  z-index: 56;
+  width: 18.8333333333%;
+  height: 46px;
+  background-color: rgb(255, 148, 2);
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 2.18;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.sponsor:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 148, 2);
+}
+
+.stats {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 10;
+  width: 34.8333333333%;
+  height: 225px;
+  margin: -274px 0 0 10%;
+}
+
+.stats .element {
+  background-color: rgb(222, 222, 222);
+}
+
+.stats .givenow {
+  z-index: 8;
+  width: 41.3875598086%;
+  height: 39px;
+  margin-top: -88px;
+  border: 1px solid rgb(255, 148, 2);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(255, 148, 2);
+}
+
+.stats .givenow:hover {
+  background-color: rgb(255, 148, 2);
+  color: rgb(255, 255, 255);
+}
+
+.subtext {
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 100%;
+  height: 100px;
+  min-height: 100px;
+  margin-top: -208px;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.teachicon {
+  position: relative;
+  float: left;
+  z-index: 50;
+  width: 11.75%;
+  height: 141px;
+  margin: -335px 0 0 68.04167%;
+  background-image: url('../images/education-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.text {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.titletext {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 94.2583732057%;
+  height: 55px;
+  margin-top: -274px;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.volunteer {
+  display: block;
+  text-align: center;
+}
+
+.volunteericon {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 21;
+  width: 58px;
+  height: auto;
+  margin: -296px 0 0 35.9375%;
+  overflow: hidden;
+}
+
+.bottombar-1 {
+  z-index: 36;
+  width: 187.7830360393%;
+  margin: -99px 0 0 -47.9238%;
+}
+
+.element-1 {
+  z-index: 5;
+  width: 287.0813397129%;
+  height: 396px;
+  margin: -122px 0 0 -28.7044%;
+}
+
+.element-2 {
+  clear: both;
+  z-index: 9;
+  width: 84.928229665%;
+  height: 364px;
+  margin: -364px 0 0 173.4449799999%;
+  background-image: url('../images/Image%201.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+.ourapproach-1 {
+  clear: both;
+  z-index: 54;
+  width: 100%;
+  height: 578px;
+}
+
+.sendmessage-1 {
+  clear: both;
+  z-index: 43;
+  width: 53.7265625%;
+  height: 284px;
+  margin: 98px 0 0 25.71224%;
+}
+
+.sendmessage-2 {
+  clear: both;
+  z-index: 40;
+  width: 99.6457686335%;
+  min-height: 10px;
+  margin: -430px 0 0 0.32278%;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(255, 148, 2);
+}
+
+.sendmessage-3 {
+  display: block;
+  z-index: 41;
+  width: 88.1769215838%;
+  height: 46px;
+  margin-top: -192px;
+  border-radius: 3px;
+  background-color: rgb(255, 148, 2);
+  font-size: 0.8em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sendmessage-3:hover {
+  background-color: rgb(86, 192, 194);
+}
+
+.text-1 {
+  z-index: 16;
+  min-height: 52px;
+  margin: -184px 0 0 12.35871%;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  z-index: 15;
+  min-height: 39px;
+  margin: -217px 0 0 13.48903%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgb(255, 148, 2);
+}
+
+.text-3 {
+  z-index: 27;
+  width: 96.2765957446%;
+  min-height: 39px;
+  margin: -218px 0 0 2.31051%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgb(255, 148, 2);
+}
+
+.text-4 {
+  z-index: 28;
+  width: 72.8723404255%;
+  min-height: 52px;
+  margin: -179px 0 0 14.60273%;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  z-index: 22;
+  width: 86.7724867724%;
+  min-height: 39px;
+  margin: -217px 0 0 5.68484%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgb(255, 148, 2);
+}
+
+.text-6 {
+  z-index: 23;
+  width: 72.4867724867%;
+  min-height: 52px;
+  margin: -185px 0 0 12.99867%;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.text-7 {
+  clear: both;
+  z-index: 34;
+  margin: -109px 0 0 29.535%;
+}
+
+.text-8 {
+  z-index: 35;
+  height: 32px;
+  margin: -62px 0 0 28.76215%;
+}
+
+@media(max-width: 992px) {
+  .action1 .donateicon {
+    position: relative;
+    z-index: 18;
+    height: auto;
+  }
+
+  .action1 .element {
+    position: relative;
+    z-index: 14;
+  }
+
+  .action1 .givenow {
+    position: relative;
+    z-index: 17;
+  }
+
+  .action1 .text {
+    position: relative;
+  }
+
+  .action2 .donate {
+    position: relative;
+    z-index: 29;
+  }
+
+  .action2 .donatethingsicon {
+    position: relative;
+    z-index: 30;
+    height: auto;
+  }
+
+  .action2 .element {
+    position: relative;
+    z-index: 26;
+  }
+
+  .action3 .element {
+    position: relative;
+    z-index: 20;
+  }
+
+  .action2 .text,
+  .action3 .text {
+    position: relative;
+  }
+
+  .action3 .volunteer {
+    position: relative;
+    z-index: 24;
+  }
+
+  .action3 .volunteericon {
+    position: relative;
+    z-index: 21;
+    height: auto;
+  }
+
+  .actionbar {
+    position: relative;
+    z-index: 32;
+  }
+
+  .actionbar .action1 {
+    position: relative;
+    z-index: 19;
+    margin-left: 17.76399%;
+  }
+
+  .actionbar .action2 {
+    position: relative;
+    z-index: 31;
+    margin-left: 43.16564%;
+  }
+
+  .actionbar .action3 {
+    position: relative;
+    z-index: 25;
+    margin-left: 69.59583%;
+  }
+
+  .actionbar .actionimage {
+    position: relative;
+    z-index: 11;
+  }
+
+  .actionbar .actiontitle {
+    position: relative;
+    z-index: 13;
+    margin-left: 23.59816%;
+    font-size: 1em;
+  }
+
+  .actionbar .orangeoverlay {
+    position: relative;
+    z-index: 12;
+  }
+
+  .bottombar .bottombar {
+    position: relative;
+    z-index: 33;
+  }
+
+  .bottombar .text {
+    position: relative;
+  }
+
+  .frontimage {
+    position: relative;
+    z-index: 4;
+  }
+
+  .frontimage .donate {
+    position: relative;
+    z-index: 1;
+    margin-left: 51.59873%;
+  }
+
+  .frontimage .image {
+    position: relative;
+    z-index: 0;
+  }
+
+  .frontimage .mission {
+    position: relative;
+    z-index: 2;
+    margin-top: -307px;
+    margin-left: 19.49975%;
+  }
+
+  .frontimage .volunteer {
+    position: relative;
+    z-index: 3;
+    margin-left: 36.39743%;
+  }
+
+  .menubar .donate {
+    top: 13px;
+    left: 70.4479166666%;
+    width: 7.5520833333%;
+    font-size: 0.6em;
+  }
+
+  .menubar .sponsor {
+    font-size: 0.7em;
+  }
+
+  .menubar .volunteer {
+    top: 13px;
+    left: 58.586751302%;
+    font-size: 0.6em;
+  }
+
+  .ourapproach {
+    position: relative;
+    z-index: 54;
+  }
+
+  .ourapproach .blackoverlay {
+    position: relative;
+    z-index: 45;
+  }
+
+  .ourapproach .clothing {
+    position: relative;
+    z-index: 52;
+    margin-left: 40.4139399999%;
+    font-size: 0.7em;
+  }
+
+  .ourapproach .clothingicon {
+    position: relative;
+    z-index: 49;
+    margin-left: 43.9988699999%;
+  }
+
+  .ourapproach .educate {
+    position: relative;
+    z-index: 53;
+    margin-left: 64.58071%;
+    font-size: 0.7em;
+  }
+
+  .ourapproach .food {
+    position: relative;
+    z-index: 51;
+    margin-left: 16.79845%;
+    font-size: 0.7em;
+  }
+
+  .ourapproach .foodicon {
+    position: relative;
+    z-index: 48;
+    margin-left: 20.16602%;
+  }
+
+  .ourapproach .ourapproach {
+    position: relative;
+    z-index: 46;
+    margin-left: 23.59816%;
+    font-size: 0.7em;
+  }
+
+  .ourapproach .ourapproachtitle {
+    position: relative;
+    z-index: 47;
+    margin-top: -495px;
+    margin-left: 15.9983%;
+    font-size: 2em;
+  }
+
+  .ourapproach .overlay {
+    position: relative;
+    z-index: 44;
+  }
+
+  .ourapproach .teachicon {
+    position: relative;
+    z-index: 50;
+    margin-left: 68.03963%;
+  }
+
+  .send-message .email {
+    position: relative;
+    z-index: 38;
+    margin-left: 39.35293%;
+  }
+
+  .send-message .messagetextarea {
+    position: relative;
+    z-index: 39;
+  }
+
+  .send-message .name {
+    position: relative;
+    z-index: 37;
+  }
+
+  .send-message .sendmessage {
+    position: relative;
+  }
+
+  .sendmessage {
+    position: relative;
+    z-index: 43;
+  }
+
+  .stats {
+    position: relative;
+    z-index: 10;
+    margin-left: 9.99874%;
+  }
+
+  .stats .element {
+    position: relative;
+  }
+
+  .stats .givenow {
+    position: relative;
+    z-index: 8;
+    font-size: 0.7em;
+  }
+
+  .stats .subtext {
+    position: relative;
+    z-index: 7;
+    font-size: 0.6em;
+  }
+
+  .stats .titletext {
+    position: relative;
+    z-index: 6;
+    font-size: 0.7em;
+  }
+
+  .action1 .text-1 {
+    z-index: 16;
+    font-size: 0.6em;
+  }
+
+  .action1 .text-2 {
+    z-index: 15;
+  }
+
+  .action2 .text-3 {
+    z-index: 27;
+  }
+
+  .action2 .text-4 {
+    z-index: 28;
+  }
+
+  .action3 .text-5 {
+    z-index: 22;
+  }
+
+  .action3 .text-6 {
+    z-index: 23;
+  }
+
+  .bottombar .text-7 {
+    z-index: 34;
+    margin-left: 29.53565%;
+  }
+
+  .bottombar .text-8 {
+    z-index: 35;
+    margin-left: 28.76329%;
+  }
+
+  .send-message .bottombar-1 {
+    position: relative;
+    z-index: 36;
+    margin-left: -47.91991%;
+  }
+
+  .send-message .sendmessage-2 {
+    z-index: 40;
+    margin-left: 0.3170799999%;
+    font-size: 0.7em;
+  }
+
+  .send-message .sendmessage-3 {
+    z-index: 41;
+  }
+
+  .sendmessage-1 {
+    margin-left: 25.71195%;
+  }
+
+  .stats .element-1 {
+    z-index: 5;
+    margin-left: -28.70128%;
+  }
+
+  .stats .element-2 {
+    z-index: 9;
+    width: 79.2348738355%;
+    margin-left: 173.4376399999%;
+  }
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .action1 .donateicon {
+    position: relative;
+    z-index: 18;
+    height: auto;
+  }
+
+  .action1 .element {
+    position: relative;
+    z-index: 14;
+  }
+
+  .action1 .givenow {
+    position: relative;
+    z-index: 17;
+    font-size: 0.6em;
+  }
+
+  .action2 .donate {
+    position: relative;
+    z-index: 29;
+    font-size: 0.6em;
+  }
+
+  .action2 .donatethingsicon {
+    position: relative;
+    z-index: 30;
+    height: auto;
+  }
+
+  .action2 .element {
+    position: relative;
+    z-index: 26;
+  }
+
+  .action3 .element {
+    position: relative;
+    z-index: 20;
+  }
+
+  .action1 .text,
+  .action2 .text,
+  .action3 .text {
+    position: relative;
+  }
+
+  .action3 .volunteer {
+    position: relative;
+    z-index: 24;
+    font-size: 0.6em;
+  }
+
+  .action3 .volunteericon {
+    position: relative;
+    z-index: 21;
+    height: auto;
+  }
+
+  .actionbar {
+    position: relative;
+    z-index: 32;
+  }
+
+  .actionbar .action1 {
+    position: relative;
+    z-index: 19;
+    margin-left: 17.7653%;
+  }
+
+  .actionbar .action2 {
+    position: relative;
+    z-index: 31;
+    margin-left: 43.6849%;
+  }
+
+  .actionbar .action3 {
+    position: relative;
+    z-index: 25;
+    margin-left: 69.59839%;
+  }
+
+  .actionbar .actionimage {
+    position: relative;
+    z-index: 11;
+  }
+
+  .actionbar .actiontitle {
+    position: relative;
+    z-index: 13;
+    margin-top: -475px;
+    margin-left: 23.59823%;
+  }
+
+  .actionbar .orangeoverlay {
+    position: relative;
+    z-index: 12;
+  }
+
+  .bottombar .bottombar {
+    position: relative;
+    z-index: 33;
+  }
+
+  .bottombar .text {
+    position: relative;
+    font-size: 0.5em;
+  }
+
+  .frontimage {
+    position: relative;
+    z-index: 4;
+  }
+
+  .frontimage .donate {
+    position: relative;
+    z-index: 1;
+    margin-left: 51.59709%;
+  }
+
+  .frontimage .image {
+    position: relative;
+    z-index: 0;
+  }
+
+  .frontimage .mission {
+    position: relative;
+    z-index: 2;
+    margin-top: -249px;
+    margin-left: 19.4987%;
+    font-size: 2em;
+  }
+
+  .frontimage .volunteer {
+    position: relative;
+    z-index: 3;
+    margin-left: 36.3973%;
+  }
+
+  .menubar .logo {
+    font-size: 0.7em;
+  }
+
+  .ourapproach {
+    position: relative;
+    z-index: 54;
+  }
+
+  .ourapproach .blackoverlay {
+    position: relative;
+    z-index: 45;
+    height: 385px;
+    margin-top: -385px;
+  }
+
+  .ourapproach .clothing {
+    position: relative;
+    z-index: 52;
+    margin-top: -93px;
+    margin-left: 40.41748%;
+  }
+
+  .ourapproach .clothingicon {
+    position: relative;
+    z-index: 49;
+    margin-top: -234px;
+    margin-left: 43.99821%;
+  }
+
+  .ourapproach .educate {
+    position: relative;
+    z-index: 53;
+    margin-top: -93px;
+    margin-left: 64.5813%;
+  }
+
+  .ourapproach .food {
+    position: relative;
+    z-index: 51;
+    margin-top: -93px;
+    margin-left: 16.79891%;
+  }
+
+  .ourapproach .foodicon {
+    position: relative;
+    z-index: 48;
+    margin-top: -234px;
+  }
+
+  .ourapproach .ourapproach {
+    position: relative;
+    z-index: 46;
+    margin-top: -334px;
+    margin-left: 23.59416%;
+  }
+
+  .ourapproach .ourapproachtitle {
+    position: relative;
+    z-index: 47;
+    margin-top: -304px;
+    margin-left: 15.99935%;
+  }
+
+  .ourapproach .overlay {
+    position: relative;
+    z-index: 44;
+    height: 385px;
+  }
+
+  .ourapproach .teachicon {
+    position: relative;
+    z-index: 50;
+    margin-top: -234px;
+    margin-left: 68.0399599999%;
+  }
+
+  .send-message .email {
+    position: relative;
+    z-index: 38;
+    margin-left: 39.35154%;
+    font-size: 0.6em;
+  }
+
+  .send-message .messagetextarea {
+    position: relative;
+    z-index: 39;
+    font-size: 0.6em;
+  }
+
+  .send-message .name {
+    position: relative;
+    z-index: 37;
+    font-size: 0.6em;
+  }
+
+  .send-message .sendmessage {
+    position: relative;
+  }
+
+  .sendmessage {
+    position: relative;
+    z-index: 43;
+  }
+
+  .sendmessage .send-message {
+    margin-top: -192px;
+  }
+
+  .stats {
+    position: relative;
+    z-index: 10;
+    margin-left: 9.99756%;
+  }
+
+  .stats .element {
+    position: relative;
+  }
+
+  .stats .givenow {
+    position: relative;
+    z-index: 8;
+  }
+
+  .stats .subtext {
+    position: relative;
+    z-index: 7;
+  }
+
+  .stats .titletext {
+    position: relative;
+    z-index: 6;
+  }
+
+  .action1 .text-1 {
+    z-index: 16;
+  }
+
+  .action1 .text-2 {
+    z-index: 15;
+    font-size: 0.7em;
+  }
+
+  .action2 .text-3 {
+    z-index: 27;
+    font-size: 0.7em;
+  }
+
+  .action2 .text-4 {
+    z-index: 28;
+    font-size: 0.6em;
+  }
+
+  .action3 .text-5 {
+    z-index: 22;
+    font-size: 0.7em;
+  }
+
+  .action3 .text-6 {
+    z-index: 23;
+    font-size: 0.6em;
+  }
+
+  .bottombar .text-7 {
+    z-index: 34;
+    margin-left: 29.5327%;
+  }
+
+  .bottombar .text-8 {
+    z-index: 35;
+    margin-left: 28.7653%;
+  }
+
+  .send-message .bottombar-1 {
+    position: relative;
+    z-index: 36;
+    margin-left: -47.92188%;
+  }
+
+  .send-message .sendmessage-2 {
+    z-index: 40;
+    margin-top: -423px;
+    margin-left: 0;
+  }
+
+  .send-message .sendmessage-3 {
+    z-index: 41;
+    font-size: 0.6em;
+  }
+
+  .sendmessage-1 {
+    margin-left: 25.71208%;
+  }
+
+  .stats .element-1 {
+    z-index: 5;
+    margin-left: -28.67239%;
+  }
+
+  .stats .element-2 {
+    z-index: 9;
+    width: 79.2301851527%;
+    margin-left: 173.44197%;
+  }
+}
+
+@media(max-width: 480px) {
+  .action1 .donateicon {
+    position: relative;
+    z-index: 18;
+    height: auto;
+    margin-top: -197px;
+  }
+
+  .action1 .element {
+    position: relative;
+    z-index: 14;
+    height: 209px;
+    margin-left: -0.13298%;
+  }
+
+  .action1 .givenow {
+    position: relative;
+    z-index: 17;
+    margin-top: -46px;
+    margin-left: 18.88298%;
+  }
+
+  .action2 .donate {
+    position: relative;
+    z-index: 29;
+    margin-top: -44px;
+  }
+
+  .action2 .donatethingsicon {
+    position: relative;
+    z-index: 30;
+    height: auto;
+    margin-top: -192px;
+  }
+
+  .action2 .element {
+    position: relative;
+    z-index: 26;
+    height: 209px;
+    margin-left: -0.13298%;
+  }
+
+  .action2 .text {
+    position: relative;
+  }
+
+  .action3 .element {
+    position: relative;
+    z-index: 20;
+    height: 209px;
+    margin-top: 52px;
+  }
+
+  .action1 .text,
+  .action3 .text {
+    position: relative;
+    min-height: 20px;
+  }
+
+  .action3 .volunteer {
+    position: relative;
+    z-index: 24;
+    margin-top: -45px;
+    margin-left: 18.39262%;
+  }
+
+  .action3 .volunteericon {
+    position: relative;
+    z-index: 21;
+    height: auto;
+    margin-top: -200px;
+  }
+
+  .actionbar {
+    position: relative;
+    clear: both;
+    z-index: 32;
+    margin-top: -114px;
+  }
+
+  .actionbar .action1 {
+    position: relative;
+    z-index: 19;
+    margin-top: -676px;
+    margin-left: 26.71875%;
+  }
+
+  .actionbar .action2 {
+    position: relative;
+    z-index: 31;
+    height: 209px;
+    margin-top: -450px;
+    margin-left: 26.71875%;
+  }
+
+  .actionbar .action3 {
+    position: relative;
+    z-index: 25;
+    height: 160px;
+    margin-top: -274px;
+    margin-left: 26.71875%;
+  }
+
+  .actionbar .actionimage {
+    position: relative;
+    z-index: 11;
+    height: 764px;
+    margin-top: 2px;
+  }
+
+  .actionbar .actiontitle {
+    position: relative;
+    z-index: 13;
+    margin-top: -715px;
+    margin-left: 23.59701%;
+    font-size: 0.7em;
+  }
+
+  .actionbar .orangeoverlay {
+    position: relative;
+    z-index: 12;
+    height: 764px;
+    margin-top: -764px;
+  }
+
+  .bottombar .bottombar {
+    position: relative;
+    z-index: 33;
+  }
+
+  .bottombar .text {
+    position: relative;
+  }
+
+  .frontimage {
+    position: relative;
+    z-index: 4;
+    height: 656px;
+  }
+
+  .frontimage .donate {
+    position: relative;
+    z-index: 1;
+    width: 12.9166666666%;
+    height: 20px;
+    margin-top: -113px;
+    margin-left: 51.66667%;
+    font-size: 0.6em;
+    line-height: 1.68;
+  }
+
+  .frontimage .image {
+    position: relative;
+    z-index: 0;
+  }
+
+  .frontimage .mission {
+    position: relative;
+    z-index: 2;
+    margin-top: -317px;
+  }
+
+  .frontimage .volunteer {
+    position: relative;
+    z-index: 3;
+    width: 12.9166666666%;
+    height: 20px;
+    margin-top: -113px;
+    margin-left: 36.45508%;
+    font-size: 0.6em;
+  }
+
+  .menubar .donate {
+    top: 17px;
+    left: 66.875%;
+    width: 9.375%;
+    font-size: 0.4em;
+  }
+
+  .menubar .sponsor {
+    font-size: 0.4em;
+  }
+
+  .menubar .volunteer {
+    top: 17px;
+    left: 52.1083333333%;
+    width: 12.2916666666%;
+    font-size: 0.4em;
+  }
+
+  .ourapproach {
+    position: relative;
+    z-index: 54;
+    margin-top: 255px;
+  }
+
+  .ourapproach .blackoverlay {
+    position: relative;
+    z-index: 45;
+  }
+
+  .ourapproach .clothing {
+    position: relative;
+    z-index: 52;
+    margin-left: 40.41667%;
+    font-size: 0.6em;
+  }
+
+  .ourapproach .clothingicon {
+    position: relative;
+    z-index: 49;
+    margin-left: 43.9974%;
+  }
+
+  .ourapproach .educate {
+    position: relative;
+    z-index: 53;
+    margin-left: 64.58008%;
+    font-size: 0.6em;
+  }
+
+  .ourapproach .food {
+    position: relative;
+    z-index: 51;
+    margin-left: 16.79688%;
+    font-size: 0.6em;
+  }
+
+  .ourapproach .foodicon {
+    position: relative;
+    z-index: 48;
+  }
+
+  .ourapproach .ourapproach {
+    position: relative;
+    z-index: 46;
+    margin-left: 23.59375%;
+    font-size: 0.6em;
+  }
+
+  .ourapproach .ourapproachtitle {
+    position: relative;
+    z-index: 47;
+    font-size: 1.5em;
+  }
+
+  .ourapproach .overlay {
+    position: relative;
+    z-index: 44;
+  }
+
+  .ourapproach .teachicon {
+    position: relative;
+    z-index: 50;
+    margin-left: 68.03711%;
+  }
+
+  .send-message .email {
+    position: relative;
+    z-index: 38;
+    margin-left: 39.34834%;
+  }
+
+  .send-message .messagetextarea {
+    position: relative;
+    z-index: 39;
+  }
+
+  .send-message .name {
+    position: relative;
+    z-index: 37;
+  }
+
+  .send-message .sendmessage {
+    position: relative;
+  }
+
+  .sendmessage {
+    position: relative;
+    z-index: 43;
+  }
+
+  .stats {
+    position: relative;
+    z-index: 10;
+    margin-top: -160px;
+    margin-left: 9.99349%;
+  }
+
+  .stats .element {
+    position: relative;
+  }
+
+  .stats .givenow {
+    position: relative;
+    z-index: 8;
+    width: 56.2242990654%;
+    height: 22px;
+    margin-top: -54px;
+    margin-left: 0.00935%;
+    font-size: 0.6em;
+  }
+
+  .stats .subtext {
+    position: relative;
+    z-index: 7;
+    margin-top: -174px;
+    font-size: 0.5em;
+  }
+
+  .stats .titletext {
+    position: relative;
+    z-index: 6;
+    margin-top: -240px;
+    font-size: 0.6em;
+  }
+
+  .action1 .text-1 {
+    z-index: 16;
+    margin-top: -104px;
+    margin-left: 13.48903%;
+  }
+
+  .action1 .text-2 {
+    z-index: 15;
+    margin-top: -128px;
+  }
+
+  .action2 .text-3 {
+    z-index: 27;
+    margin-top: -123px;
+    margin-left: 0;
+  }
+
+  .action2 .text-4 {
+    z-index: 28;
+    margin-top: -96px;
+  }
+
+  .action3 .text-5 {
+    z-index: 22;
+    margin-top: -131px;
+    margin-left: 5.31084%;
+  }
+
+  .action3 .text-6 {
+    z-index: 23;
+    margin-top: -99px;
+  }
+
+  .bottombar .text-7 {
+    z-index: 34;
+    margin-left: 29.53018%;
+  }
+
+  .bottombar .text-8 {
+    z-index: 35;
+    margin-left: 28.76438%;
+  }
+
+  .ourapproach-1 {
+    height: 384px;
+  }
+
+  .send-message .bottombar-1 {
+    position: relative;
+    z-index: 36;
+    margin-left: -47.92185%;
+  }
+
+  .send-message .sendmessage-2 {
+    z-index: 40;
+    margin-top: -430px;
+    font-size: 0.6em;
+  }
+
+  .send-message .sendmessage-3 {
+    z-index: 41;
+  }
+
+  .sendmessage-1 {
+    margin-top: 292px;
+    margin-left: 25.70964%;
+  }
+
+  .stats .element-1 {
+    z-index: 5;
+    width: 287.1028037383%;
+    height: 284px;
+    margin-left: -28.69159%;
+  }
+
+  .stats .element-2 {
+    z-index: 9;
+    width: 79.2336448598%;
+    margin-top: -252px;
+    margin-left: 173.4392499999%;
+  }
+}

@@ -28,97 +28,116 @@
 
   <!-- CSS
     ================================================== -->
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/vendor.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/events.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
-  <!-- script
-    ================================================== -->
-  <script src="js/modernizr.js"></script>
-  <script src="js/pace.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  <script src="js/events.js"></script>
+    <!-- script
+      ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/extras.js"></script>
+    <script src="js/events.js"></script>
 
-  <!-- favicons
-    ================================================== -->
+
+    <!-- favicons
+      ================================================== -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
 
 </head>
 
 <body id="top">
 
-  <!-- header
+<!-- header
     ================================================== -->
-  <header class="s-header">
-
-    <div class="header-logo">
-      <a class="site-logo" href="index.html">
-        <img src="images/logo.png" alt="Homepage">
-      </a>
+<header class="s-header card">
+    <!--display: flex; width: 100%;align-items: stretch;-->
+    <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
+        <!--flex: 0 0 65%;  flex-grow: 1;-->
+        <div class="gofundmead-text col" style="color: white; line-height: 50px;vertical-align: center;text-align: center;font-family: 'Josefin Sans', sans-serif;   flex: 0 0 85%;  flex-shrink: 0;flex-grow: 1; ">
+            Help fund our new kitchen: <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives" target="_blank" style="text-decoration: underline; color: white;">GoFundMe Page</a>
+        </div>
+        <!--flex: 1;   flex-grow: 1;-->
+        <div class="gofundmead-button col" style="flex: 1;   flex-shrink: 0;flex-grow: 1;">
+            <button id="gofundmead-close" style="background-color: transparent;border-color: transparent; float: right; vertical-align: center;"><i class="fa  fa-times" style="color: white; font-size: 2.5rem;"></i></button>
+        </div>
     </div>
 
-    <nav class="header-nav">
+    <div class="header-logo">
+        <a class="site-logo" href="index.html">
+            <img src="images/logo.png" alt="Homepage">
+        </a>
+    </div>
+    <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup" href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>
+    <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
+    <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
 
-      <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+    <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
-      <div class="header-nav__content">
-        <h3>Navigation</h3>
+    <nav class="header-nav" style="background-color: #000">
 
-        <ul class="header-nav__list">
-          <li class="current"><a class="" href="/#home" title="home">Home</a></li>
-          <li><a class=""  href="#" title="events">Events</a></li>
-          <li><a class="" href="/#about" title="about">About</a></li>
-          <li><a class="" href="/#services" title="services">Services</a></li>
-          <li><a class="" href="/#works" title="works">Works</a></li>
-          <li><a class="" href="/#volunteers" title="volunteers">Volunteers</a></li>
-          <li><a class="" href="/#contact" title="contact">Contact</a></li>
-          <li><a class=""  href="/#home" title="donate">Donate</a></li>
-        </ul>
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+        <div class="header-nav__content" style="background-color: #000">
+            <h3 style="color: #ff7043">Navigation</h3>
 
-        <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
-        <p>Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers
-          plays a vital role in our efforts to end hunger in the United States.
-          With the support of volunteers, the food for life is helping homeless to build a better future.</p>
+            <ul class="header-nav__list">
+                <li class="current"><a class="smoothscroll"  href="index.html" title="home">Home</a></li>
+                <li><a class="custom-dbox-popup"  href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>
+                <li><a class="smoothscroll"  href="donate-things.html" title="about">Donate</a></li>
+                <li><a class="smoothscroll"  href="events.html" title="services">Volunteer</a></li>
+                <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
+                <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
+                <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->
+                <!--<li><a class="smoothscroll"  href="#home" title="donate">Donate</a></li>-->
+            </ul>
 
-        <ul class="header-nav__social">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-behance"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-          </li>
-        </ul>
+            <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
+            <p>Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers plays a vital role in our efforts to end hunger in the United States.
+                With the support of volunteers, the food for life is helping homeless to build a better future.</p>
 
-      </div> <!-- end header-nav__content -->
+            <ul class="header-nav__social">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+            </ul>
 
-    </nav> <!-- end header-nav -->
+        </div> <!-- end header-nav__content -->
+
+    </nav>  <!-- end header-nav -->
 
     <a class="header-menu-toggle" href="#0">
-      <span class="header-menu-text">Menu</span>
-      <span class="header-menu-icon"></span>
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
     </a>
 
-  </header> <!-- end s-header -->
+</header> <!-- end s-header -->
 
 
 
-  <!-- clients
-    ================================================== -->
+
+<!-- clients
+  ================================================== -->
   <section id="volunteers" class="s-clients" style="background-color: #0059b3;">
     <div class="container1">
       <div class="row">
@@ -132,56 +151,54 @@
 
   </section> <!-- end s-clients -->
 
-  <!-- footer
-    ================================================== -->
-  <footer style="padding:10%;background-color:black;">
+<!-- footer
+================================================== -->
+<footer>
 
     <div class="row footer-main">
 
-      <div class="col-six tab-full left footer-desc">
+        <div class="col-full tab-full left footer-desc" style="font-family: 'Josefin Sans', sans-serif;">
 
-        <div class="footer-logo"></div>
-        Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers
-        plays a vital role in our efforts to end hunger in the United States.
-        With the support of volunteers, the food for life is helping homeless to build a better future.
+            <div style="text-align: center;"><div class="footer-logo" style="display: inline-block;"></div></div>
+            Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers plays a vital role in our efforts to end hunger in the United States.
+            With the support of volunteers, the food for life is helping homeless to build a better future.
 
-      </div>
 
-      <div class="col-six tab-full right footer-subscribe">
-
-        <h4>Get Notified</h4>
-        <p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding
-          Homeless people.</p>
-
-        <div class="subscribe-form">
-          <form id="mc-form" class="group" novalidate="true">
-            <input type="email" disabled value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address"
-              required="">
-            <input type="submit" name="subscribe" value="Subscribe">
-            <label for="mc-email" class="subscribe-message"></label>
-          </form>
         </div>
 
-      </div>
+        <!--<div class="col-six tab-full right footer-subscribe">-->
+
+        <!--<h4>Get Notified</h4>-->
+        <!--<p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding Homeless people.</p>-->
+
+        <!--<div class="subscribe-form">-->
+        <!--<form id="mc-form" class="group" novalidate="true">-->
+        <!--<input type="email"  value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">-->
+        <!--<input type="submit" name="subscribe" value="Subscribe" id="submitSubscribe">-->
+        <!--&lt;!&ndash;<label for="mc-email" class="subscribe-message"></label>&ndash;&gt;-->
+        <!--</form>-->
+        <!--</div>-->
+
+        <!--</div>-->
 
     </div> <!-- end footer-main -->
 
     <div class="row footer-bottom">
 
-      <div class="col-twelve">
-        <div class="copyright">
-          <span>© Copyright Glint 2017</span>
-          <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
-        </div>
+        <div class="col-twelve">
 
-        <div class="go-top">
-          <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+            </div>
         </div>
-      </div>
 
     </div> <!-- end footer-bottom -->
 
-  </footer> <!-- end footer -->
+    <h4 style="font-family: 'Josefin Sans', sans-serif;">Desiretreefoundation inc is a 501(c)(3) tax-exempt organization. Donations and contributions are tax deductible as allowed by law.<br>
+        1287 S Ponce De Leon Ave NE, Atlanta, GA 30306 US</h4>
+
+
+</footer> <!-- end footer -->
 
 
 
