@@ -11,6 +11,7 @@
     padding: 0px;
     margin: 0px 0px 20px;
             cursor:pointer;
+        /*height: 150px;*/
     }
     .event-list > li > time {
     display: inline-block;
@@ -20,6 +21,7 @@
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+        /*height: 170px;*/
     }
     .event-list > li:nth-child(even) > time {
     background-color: rgb(165, 82, 167);
@@ -45,6 +47,7 @@
     .event-list > li > .info {
     padding-top: 5px;
     text-align: center;
+        height: 150px;
     }
     .event-list > li > .info > .title {
     font-size: 17pt;
@@ -82,13 +85,13 @@
     width: 100%;
     color: rgb(30, 30, 30);
     text-decoration: none;
-    } 
-    .event-list > li > .social > ul > li {    
+    }
+    .event-list > li > .social > ul > li {
             padding: 0px;
     }
     .event-list > li > .social > ul > li > a {
             padding: 3px 0px;
-    } 
+    }
     .event-list > li > .info > ul > li:hover,
     .event-list > li > .social > ul > li:hover {
     color: rgb(30, 30, 30);
@@ -119,13 +122,12 @@
     color: rgb(255, 255, 255) !important;
     background-color: rgb(221, 75, 57) !important;
     }
-    
-    @media (min-width: 768px) {
+    @media (min-width: 1100px) {
     .event-list > li {
         position: relative;
         display: block;
         width: 100%;
-        height: 120px;
+        /*height: 200px;*/
         padding: 0px;
     }
     .event-list > li > time,
@@ -144,17 +146,17 @@
     .event-list > li > time,
     .event-list > li > img {
         width: 120px;
-        height: 120px;
+        height: 150px;
         padding: 0px;
         margin: 0px;
     }
     .event-list > li > .info {
         position: relative;
-        height: 120px;
+        height: 150px;
         text-align: left;
         padding-right: 40px;
-    }	
-    .event-list > li > .info > .title, 
+    }
+    .event-list > li > .info > .title,
     .event-list > li > .info > .desc {
         padding: 0px 10px;
     }
@@ -173,7 +175,7 @@
             .event-list > li > .social > ul {
                     border-left: 1px solid rgb(230, 230, 230);
             }
-    .event-list > li > .social > ul > li {			
+    .event-list > li > .social > ul > li {
         display: block;
                     padding: 0px;
     }
@@ -183,7 +185,23 @@
         padding: 10px 0px 9px;
     }
     }
-    
+@media (max-width: 950px) {
+    .event-list > li > .info {
+        height: 170px;
+    }
+}
+@media (max-width: 550px) {
+    .event-list > li > .info {
+        height: 200px;
+    }
+}
+
+@media (max-width: 415px) {
+    .event-list > li > .info {
+        height: 280px;
+    }
+}
+
     .btn {
         margin: .2em .1em;
         font-family: "Open Sans", sans-serif;
@@ -196,22 +214,22 @@
         border-radius: 3px;
         padding: 0.65em 1.3em;
       }
-      
+
       .btn-lg {
         padding: 1em 2em;
       }
-      
+
       .btn-sm,
       .btn-xs {
         font-size: .85em;
         padding: .5em 1em;
       }
-      
+
       .btn-xs {
         font-size: .85em;
         padding: .25em .75em;
       }
-      
+
       .btn-default {
         border-color: #d9d9d9;
         background-image: linear-gradient(#ffffff, #f2f2f2);
@@ -219,7 +237,7 @@
       .btn-default:hover {
         background: linear-gradient(#f2f2f2, #e6e6e6);
       }
-      
+
       .btn-primary {
         border-color: #2a6496;
         background-image: linear-gradient(#428bca, #357ebd);
@@ -227,7 +245,7 @@
       .btn-primary:hover {
         background: linear-gradient(#357ebd, #3071a9);
       }
-      
+
       .btn-success {
         border-color: #3d8b3d;
         background-image: linear-gradient(#5cb85c, #4cae4c);
@@ -235,7 +253,7 @@
       .btn-success:hover {
         background: linear-gradient(#4cae4c, #449d44);
       }
-      
+
       .btn-info {
         border-color: #28a1c5;
         background-image: linear-gradient(#5bc0de, #46b8da);
@@ -243,7 +261,7 @@
       .btn-info:hover {
         background: linear-gradient(#46b8da, #31b0d5);
       }
-      
+
       .btn-warning {
         border-color: #df8a13;
         background-image: linear-gradient(#f0ad4e, #eea236);
@@ -251,7 +269,7 @@
       .btn-warning:hover {
         background: linear-gradient(#eea236, #ec971f);
       }
-      
+
       .btn-danger {
         border-color: #b52b27;
         background-image: linear-gradient(#d9534f, #d43f3a);
@@ -259,4 +277,5 @@
       .btn-danger:hover {
         background: linear-gradient(#d43f3a, #c9302c);
       }
-      
+
+

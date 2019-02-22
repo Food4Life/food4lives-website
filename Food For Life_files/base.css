@@ -995,36 +995,6 @@ textarea {
 
 .nav-buttons{
     top: 12.5px;
-    letter-spacing: 2px;
-    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 4px;
-    padding: 0 16px;
-    min-width: 64px;
-    height: 36px;
-    vertical-align: middle;
-    text-align: center;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    /*box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);*/
-    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 36px;
-    overflow: hidden;
-    outline: none;
-    cursor: pointer;
-    /*transition: box-shadow 0.2s;*/
-    letter-spacing: 2px;
-}
-
-.nav-buttons:hover{
-    color: #FFF;
-    color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
-
 }
 
 #sponsor-nav{
@@ -1037,39 +1007,19 @@ textarea {
 
 #donate-nav{
     position: fixed;
-    left: 81.5%;
+    left: 83.5%;
     margin-left: -100px;
-    /*background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));*/
-    color: white;
-}
-
-/*#donate-button{*/
-    /*!*background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));*!*/
-    /*color: rgb(var(--pure-material-primary-rgb,255,112,67));*/
-    /*left: 43.5%;*/
-    /*width: 175px;*/
-/*}*/
-
-
-
-
-@media screen and (max-width: 500px) {
-    #donate-button{
-        left: 30%;
-        width: 150px;
-    }
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    color: rgb(var(--pure-material-primary-rgb,255,112,67));
 }
 
 #volunteer-nav{
     position: fixed;
     left: 72%;
     margin-left: -100px;
-    /*background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));*/
-    color: white;
-    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
-
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    color: rgb(var(--pure-material-primary-rgb,255,112,67));
 }
-
 
 .pure-material-button-contained {
     position: relative;
@@ -1133,7 +1083,6 @@ textarea {
 .pure-material-button-contained:hover,
 .pure-material-button-contained:focus {
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: rgb(var(--pure-material-onprimary-rgb,255, 255, 255));
 }
 
 .pure-material-button-contained:hover::before {
@@ -1175,127 +1124,71 @@ textarea {
     opacity: 0;
 }
 
-#sponsor-nav:hover{
-    background-color: #FFF;
-    color: rgb(var(--pure-material-primary-rgb,255,112,67));
-}
-.nav-buttons{
-    color: rgb(var(--pure-material-primary-rgb,255,112,67));
-}
-#donate-nav:hover{
-    color: rgb(var(--pure-material-primary-rgb,255,112,67));
-}
-
-#volunteer-nav:hover{
-    color: rgb(var(--pure-material-primary-rgb,255,112,67));
-}
-
-#upcoming-events{
-    color: rgb(var(--pure-material-primary-rgb,255,255,255));
-    background-color: rgb(var(--pure-material-primary-rgb,255,112,67));
-    width: 300px;
-    height: 60px;
-    line-height: 60px;
-    vertical-align: center;
-    text-align: center;
-}
-
-#upcoming-events:hover{
-    color: rgb(var(--pure-material-primary-rgb,255,112,67));
-    background-color: white;
-}
-
 @media screen and (max-width: 630px) {
-    .nav-buttons{
+    .pure-material-button-contained{
         background: transparent !important;
         visibility: hidden;
     }
 }
 
-@media screen and (max-width: 1130px) {
-    #sponsor-nav{
-        left: 89%;
-    }
+@media screen and (max-width: 1030px) {
     #volunteer-nav{
-        left: 63.5%;
+        left: 68%;
     }
     #donate-nav{
-        left: 75.5%;
+        left: 84.5%;
     }
 }
-
-/*@media screen and (max-width: 1030px) {*/
-    /*#sponsor-nav{*/
-        /*left: 89%;*/
-    /*}*/
-    /*#volunteer-nav{*/
-        /*left: 63.5%;*/
-    /*}*/
-    /*#donate-nav{*/
-        /*left: 75.5%;*/
-    /*}*/
-/*}*/
 
 @media screen and (max-width: 970px) {
 
     #donate-nav{
-        left: 73.5%;
+        left: 83%;
     }
 
     #volunteer-nav{
-        left: 60.5%;
+        left: 67.5%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
 
     #donate-nav{
-        left: 72.5%;
+        left: 81.5%;
     }
 
     #volunteer-nav{
-        left: 59.5%;
+        left: 65%;
     }
 }
 
 @media screen and (max-width: 830px) {
 
     #donate-nav{
-        left: 72%;
+        left: 80%;
     }
-
     #volunteer-nav{
-        left: 57%;
+        left: 62.5%;
     }
 }
 
 @media screen and (max-width: 750px) {
 
-    #sponsor-nav{
-        left: 87.5%;
-    }
-
     #donate-nav{
-        left: 70.5%;
+        left: 77%;
     }
-
     #volunteer-nav{
-        left: 55.5%;
+        left: 57.5%;
     }
 }
 
 @media screen and (max-width: 690px) {
 
-    #sponsor-nav{
-        left: 86%;
-    }
-
     #donate-nav{
-        left: 66%;
+        left: 75.5%;
     }
-
     #volunteer-nav{
-        left: 48.5%;
+        left: 54.5%;
     }
 }
 
@@ -1344,24 +1237,3 @@ textarea {
     /*!*background-color: #757575;*!*/
     /*width: 100000px;*/
 /*}*/
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: white;
-}
-::-moz-placeholder { /* Firefox 19+ */
-    color: white;
-}
-:-ms-input-placeholder { /* IE 10+ */
-    color: white;
-}
-:-moz-placeholder { /* Firefox 18- */
-    color: white;
-}
-
-input[type="email"]::-webkit-input-placeholder {
-    color: orange;
-}
-
-input::placeholder{
-    color: #FFF;
-}

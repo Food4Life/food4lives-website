@@ -28,10 +28,8 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>-->
 
     <!-- script
     ================================================== -->
@@ -48,41 +46,62 @@
     <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
     <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
 
+    <!--<link rel="stylesheet" href="css/standardize.css">-->
+    <!--<link rel="stylesheet" href="css/index-grid.css">-->
+    <!--<link rel="stylesheet" href="css/index.css">-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
 </head>
+
+
 
 <body id="top">
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
+    <header class="s-header card">
+        <!--display: flex; width: 100%;align-items: stretch;-->
+        <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
+            <!--flex: 0 0 65%;  flex-grow: 1;-->
+            <div class="gofundmead-text col" style="color: white; line-height: 50px;vertical-align: center;text-align: center;font-family: 'Josefin Sans', sans-serif;   flex: 0 0 85%;  flex-shrink: 0;flex-grow: 1; ">
+                Help fund our new kitchen: <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives" target="_blank" style="text-decoration: underline; color: white;">GoFundMe Page</a>
+            </div>
+            <!--flex: 1;   flex-grow: 1;-->
+            <div class="gofundmead-button col" style="flex: 1;   flex-shrink: 0;flex-grow: 1;">
+                <button id="gofundmead-close" style="background-color: transparent;border-color: transparent; float: right; vertical-align: center;"><i class="fa  fa-times" style="color: white; font-size: 2.5rem;"></i></button>
+            </div>
+        </div>
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo.png" alt="Homepage">
             </a>
         </div>
-        <!--<a href="#" class="square_btn">Donate</a>-->
-        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Sponsor A Meal</a>
-        <a id="donate-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a>
-        <a id="volunteer-nav" class="pure-material-button-contained nav-buttons" href="events.html">Volunteer</a>
+        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup" href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>
+        <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
+        <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
 
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
-        <nav class="header-nav">
+        <nav class="header-nav" style="background-color: #000">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-            <div class="header-nav__content">
+            <div class="header-nav__content" style="background-color: #000">
                 <h3 style="color: #ff7043">Navigation</h3>
 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class=""  href="/events.html" title="events">Events</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                    <li><a class="smoothscroll"  href="#home" title="donate">Donate</a></li>
+                    <li class="current"><a class="smoothscroll"  href="index.html" title="home">Home</a></li>
+                    <li><a class="custom-dbox-popup"  href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>
+                    <li><a class="smoothscroll"  href="donate-things.html" title="about">Donate</a></li>
+                    <li><a class="smoothscroll"  href="events.html" title="services">Volunteer</a></li>
+                    <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
+                    <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
+                    <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->
+                    <!--<li><a class="smoothscroll"  href="#home" title="donate">Donate</a></li>-->
                 </ul>
 
                 <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
@@ -133,7 +152,7 @@ With the support of volunteers, the food for life is helping homeless to build a
         <!--</div>-->
     <!--</div>-->
     <!--data-image-src="images/hero-bg.jpg"-->
-    <section id="home" class="s-home target-section" data-parallax="scroll"  data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll"  data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center style="top: 65px;">
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -142,9 +161,15 @@ With the support of volunteers, the food for life is helping homeless to build a
 
             <div class="row home-content__main">
 
-                <h3 class="main-page-words">Food For Life Initiative</h3>
+                <!--<div class="row">-->
+                    <!--<div class="col-xs-1 center-block">-->
+                        <!--<center>-->
+                            <h3 class="main-page-words text-xs-center center-block" style="color: #FFF; text-align: center; font-size: 2.35rem;">Food For Life Initiative</h3>
+                        <!--</center>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-                <h1 style="color: #ff7043" class="main-page-words">
+                <h1 style="color: #ff7043; text-align: center;" class="main-page-words text-center center-block">
                     FEED.  EDUCATE.  SERVE.
                 </h1>
 
@@ -154,10 +179,10 @@ With the support of volunteers, the food for life is helping homeless to build a
                     </a> -->
 
 					<form>
-                    <a href="https://donorbox.org/food4lives-donation" class="custom-dbox-popup btn btn--stroke btn-donate btn-custom-hover ">
-                        <i class="fa fa-heart"></i> Donate
-                    </a>
-                    <a href="/events.html" class="btn btn--stroke btn-donate ">
+                    <!--<a href="https://donorbox.org/food4lives-donation" class="custom-dbox-popup btn btn&#45;&#45;stroke btn-donate btn-custom-hover ">-->
+                        <!--<i class="fa fa-heart"></i> Donate-->
+                    <!--</a>-->
+                    <a href="events.html" class=" pure-material-button-contained " id="upcoming-events">
                         Upcoming Events
                     </a>
 				  </form>
@@ -206,7 +231,7 @@ With the support of volunteers, the food for life is helping homeless to build a
     <section id='about' class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
+            <div class="col-full" style="font-family: 'Josefin Sans', sans-serif;">
                 <h3 class="subhead subhead--light">Welcome To</h3>
                 <h1 class="display-1 display-1--light">Food For Life Initiative</h1>
             </div>
@@ -214,33 +239,38 @@ With the support of volunteers, the food for life is helping homeless to build a
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
-                <p style="color:white;font-family: 'montserrat', sans-serif;">
-                In Georgia, our poverty statistics can be overwhelming. According to U.S. census data, Georgia is second worst state in the nation for child homelessness, and we are sixth in the nation for states with the highest number of unsheltered people.
-Together, we can feed hungry people and change this grim statistic. We can reach families in need  with food and other essentials that offer hope for a better future.
-We don't live in a perfect world, and there's never going to be a perfect time to give—but there are always people out there in need of help.
+                <p style="color:white;font-family: 'montserrat', sans-serif;font-family: 'Josefin Sans', sans-serif;font-size: 2.5rem;">
+                    40 million people face hunger in the U.S. today — including more than 12 million children and more than five million seniors. The world is hungry, but the emptiness goes far beyond the table.
+                <!--In Georgia, our poverty statistics can be overwhelming. According to U.S. census data, Georgia is second worst state in the nation for child homelessness, and we are sixth in the nation for states with the highest number of unsheltered people.-->
+<!--Together, we can feed hungry people and change this grim statistic. We can reach families in need  with food and other essentials that offer hope for a better future.-->
+<!--We don't live in a perfect world, and there's never going to be a perfect time to give—but there are always people out there in need of help.-->
 <br/>
 Join us to win the fight against homelessness and the underfed .
                 </p>
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+        <!--<a id="donate-button" data-aos="fade-up" class="pure-material-button-contained" href="donate-things.html">Donate</a>-->
+
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up" style="font-family: 'Josefin Sans', sans-serif;">
 
             <div class="col-block stats__col ">
-                <div class="stats__count">1600.K+</div>
-                <h5>Poverty Population (GA)</h5>
+                <div class="stats__count">10.M+</div>
+                <h5 style="color: white;">Poverty Population (GA)</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">300.+</div>
-                <h5>Days of Service</h5>
+                <div class="stats__count">350.+</div>
+                <h5 style="color: white;">Days of Service</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">25000.+</div>
-                <h5>Meals Served</h5>
+                <div class="stats__count">35000.+</div>
+                <h5 style="color: white;">Meals Served</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">200.+</div>
-                <h5>Volunteers</h5>
+                <div class="stats__count">250.+</div>
+                <h5 style="color: white;">Volunteers</h5>
             </div>
 
         </div> <!-- end about-stats -->
@@ -256,57 +286,101 @@ Join us to win the fight against homelessness and the underfed .
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
+                <h3 class="subhead" style="color: rgb(var(--pure-material-primary-rgb,255,112,67));">How can you help solve hunger today</h3>
                 <!--<h1 class="display-2">Feed. Educate. Serve.</h1>-->
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row services-list block-1-2 block-tab-full">
+        <div class="services-list" style="">
 
-            <div class="col-block service-item" data-aos="fade-up">
+                <div class="  service-item raisedbox card serve" data-aos="fade-up">
+                    <a href="donate-things.html">
                 <div class="service-icon">
-                    <i class="icon-users"></i>
+                    <i><img src="images/Give%20today.svg"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Committed Volunteers</h3>
-                    <p>We couldn’t do what we do without our awesome volunteers! When you volunteer your time at FFL, you’re playing a key role in ending extreme poverty.
+                    <h3 class="h2">GIVE TODAY</h3>
+                    <p>Make a secure donation via credit card, venmo or paypal.
                     </p>
                 </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
+                    </a>
+                </div>
+            <div class="  service-item raisedbox card" data-aos="fade-up">
+                <a href="mailto:contact@food4lives.org" target="_blank">
                 <div class="service-icon">
-                    <i class="icon-dollar"></i>
+                    <i><img src="images/Donate%20things.svg"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Donate money for Cause</h3>
-                    <p>Make a one-time or monthly donation. Our mission is a hunger-free world. Every dollar provides healthy, delicious meals and helps us move closer to that goal!
+                    <h3 class="h2">DONATE THINGS</h3>
+                    <p>Donate coats, jackets, sleeping bags and more!
                     </p>
                 </div>
+                </a>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="  service-item raisedbox card" data-aos="fade-up">
+                <a href="events.html">
                 <div class="service-icon">
-                    <i class="icon-box"></i>
+                    <i><img src="images/Volunteer.svg"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Donate Items </h3>
-                    <p>Your generosity makes a difference. Schedule a Charity Donation Pick Up today for Clothes, Shoes and Other Stuff to live life.
+                    <h3 class="h2">VOLUNTEER</h3>
+                    <p>Volunteer for weekend and ongoing activities
                     </p>
                 </div>
+                </a>
             </div>
+            <!--<a href="events.html">-->
+                <!--<div class="col-block service-item raisedbox card" data-aos="fade-up">-->
+                    <!--<div class="service-icon">-->
+                        <!--<i class="icon-users"></i>-->
+                    <!--</div>-->
+                    <!--<div class="service-text">-->
+                        <!--<h3 class="h2">Volunteer</h3>-->
+                        <!--<p>We couldn’t do what we do without our awesome volunteers! When you volunteer your time at FFL, you’re playing a key role in ending extreme poverty.-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</a>-->
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Meal Quality Assured</h3>
-                    <p>We use organic, non GMO and Non MSG ingredients for cooking Meals and Prepare fresh before serving.
-                    </p>
-                </div>
-            </div>
+            <!--<div class="col-block service-item " data-aos="fade-up">-->
 
+            <!--</div>-->
+            <!--<a href="events.html">-->
+            <!--<div class="col-block service-item card raisedbox" data-aos="fade-up">-->
+                <!--<div class="service-icon">-->
+                    <!--<i class="icon-dollar"></i>-->
+                <!--</div>-->
+                <!--<div class="service-text">-->
+                    <!--<h3 class="h2">Donate money for Cause</h3>-->
+                    <!--<p>Make a one-time or monthly donation. Our mission is a hunger-free world. Every dollar provides healthy, delicious meals and helps us move closer to that goal!-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="events.html">&ndash;&gt;-->
+                <!--<div class="col-block service-item card raisedbox" data-aos="fade-up">-->
+                    <!--<div class="service-icon">-->
+                        <!--<i class="icon-box"></i>-->
+                    <!--</div>-->
+                    <!--<div class="service-text">-->
+                        <!--<h3 class="h2">Donate Items </h3>-->
+                        <!--<p>Your generosity makes a difference. Schedule a Charity Donation Pick Up today for Clothes, Shoes and Other Stuff to live life.-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="events.html">&ndash;&gt;-->
+                <!--<div class="col-block service-item card raisedbox" data-aos="fade-up">-->
+                    <!--<div class="service-icon">-->
+                        <!--<i class="icon-earth"></i>-->
+                    <!--</div>-->
+                    <!--<div class="service-text">-->
+                        <!--<h3 class="h2">Meal Quality Assured</h3>-->
+                        <!--<p>We use organic, non GMO and Non MSG ingredients for cooking Meals and Prepare fresh before serving.<br><br>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</a>-->
         </div> <!-- end services-list -->
 
     </section> <!-- end s-services -->
@@ -582,20 +656,20 @@ Join us to win the fight against homelessness and the underfed .
     ================================================== -->
     <section id="volunteers" class="s-clients">
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
+        <div class="row " data-aos="fade-up">
+            <div class="" style="text-align: center;">
                 <h3 class="subhead">Our Volunteers </h3>
-                <h1 class="display-2">We are Thankful to Large Community of Altruist Volunteers</h1>
+                <h6 class="display-2" style="font-size: 2.5rem; ">We are Thankful to Large Community of Altruist Volunteers</h6>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row clients-testimonials" data-aos="fade-up">
-            <div class="col-full">
+            <div class="col" style="text-align: center;">
                 <div class="testimonials">
 
                     <div class="testimonials__slide">
 
-                        <p>I like doing selfless service (seva) because it shows me the power of giving. I get to give several loving hours out of my week to bring joy to hundreds of people. It’s also a friendly reminder that we’re all human beings and that we’re all on this planet for only a short while.</p>
+                        <p style="font-size: 2rem; font-family: 'Josefin Sans', sans-serif;">I like doing selfless service (seva) because it shows me the power of giving. I get to give several loving hours out of my week to bring joy to hundreds of people. It’s also a friendly reminder that we’re all human beings and that we’re all on this planet for only a short while.</p>
 
                         <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
@@ -607,7 +681,7 @@ Join us to win the fight against homelessness and the underfed .
 
                     <div class="testimonials__slide">
 
-                        <p>Food4Life is a faith-driven initiative that seeks to provide Atlanta homeless with both physical and spiritual nourishment through freshly prepared meals. I joined the Food4life team so that I could serve others outside of myself. Among the hustle and bustle of my own daily life, it is easy to forget the plight of others. But every Saturday, I have the honor of preparing hot meals with a sincerely caring group and then serving these meals face-to-face to the community. I hope that, through Lord Krishna’s grace and our helping hands, we are able to feed some souls with good food and God’s love.</p>
+                        <p style="font-size: 2rem; font-family: 'Josefin Sans', sans-serif;">Food4Life is a faith-driven initiative that seeks to provide Atlanta homeless with both physical and spiritual nourishment through freshly prepared meals. I joined the Food4life team so that I could serve others outside of myself. Among the hustle and bustle of my own daily life, it is easy to forget the plight of others. But every Saturday, I have the honor of preparing hot meals with a sincerely caring group and then serving these meals face-to-face to the community. I hope that, through Lord Krishna’s grace and our helping hands, we are able to feed some souls with good food and God’s love.</p>
 
                         <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
@@ -619,7 +693,7 @@ Join us to win the fight against homelessness and the underfed .
 
                     <div class="testimonials__slide">
 
-                        <p>Thanks for Food for Life team and ISKCON Community for doing such a great service and given me opportunity to serve. Every Saturday feeding vegetarian food for hundreds of homeless is a great service, by volunteering here gives me positivity, motivates and inspire me to do more service in all the possible ways.</p>
+                        <p style="font-size: 2rem; font-family: 'Josefin Sans', sans-serif;">Thanks for Food for Life team and ISKCON Community for doing such a great service and given me opportunity to serve. Every Saturday feeding vegetarian food for hundreds of homeless is a great service, by volunteering here gives me positivity, motivates and inspire me to do more service in all the possible ways.</p>
 
                         <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
@@ -656,24 +730,19 @@ Join us to win the fight against homelessness and the underfed .
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form action="https://formspree.io/food4life.volunteers@gmail.com" method="POST">
                     <fieldset>
-
-                    <div class="form-field">
-                        <input name="contactName"  type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    <div class="form-field" style="color: white;">
+                        <input type="text" name="name" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width" style="color: white;">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail"  type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        <input type="email" name="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject"  type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        <textarea type="text" name="extra_mesage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary" id="contact_us">Submit</button>
+                        <input type="submit" value="Submit" class="full-width btn--primary" id="contact_us">
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -683,10 +752,8 @@ Join us to win the fight against homelessness and the underfed .
                             </div>
                         </div>
                     </div>
-
                     </fieldset>
                 </form>
-
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
@@ -762,28 +829,29 @@ Join us to win the fight against homelessness and the underfed .
 
         <div class="row footer-main">
 
-            <div class="col-six tab-full left footer-desc">
+            <div class="col-full tab-full left footer-desc" style="font-family: 'Josefin Sans', sans-serif;">
 
-                <div class="footer-logo"></div>
+                <div style="text-align: center;"><div class="footer-logo" style="display: inline-block;"></div></div>
                 Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers plays a vital role in our efforts to end hunger in the United States.
 With the support of volunteers, the food for life is helping homeless to build a better future.
 
-            </div>
-
-            <div class="col-six tab-full right footer-subscribe">
-
-                <h4>Get Notified</h4>
-                <p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding Homeless people.</p>
-
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" disabled value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div>
 
             </div>
+
+            <!--<div class="col-six tab-full right footer-subscribe">-->
+
+                <!--<h4>Get Notified</h4>-->
+                <!--<p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding Homeless people.</p>-->
+
+                <!--<div class="subscribe-form">-->
+                    <!--<form id="mc-form" class="group" novalidate="true">-->
+                        <!--<input type="email"  value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">-->
+                        <!--<input type="submit" name="subscribe" value="Subscribe" id="submitSubscribe">-->
+                        <!--&lt;!&ndash;<label for="mc-email" class="subscribe-message"></label>&ndash;&gt;-->
+                    <!--</form>-->
+                <!--</div>-->
+
+            <!--</div>-->
 
         </div> <!-- end footer-main -->
 
@@ -797,6 +865,10 @@ With the support of volunteers, the food for life is helping homeless to build a
             </div>
 
         </div> <!-- end footer-bottom -->
+
+        <h4 style="font-family: 'Josefin Sans', sans-serif;">Desiretreefoundation inc is a 501(c)(3) tax-exempt organization. Donations and contributions are tax deductible as allowed by law.<br>
+            1287 S Ponce De Leon Ave NE, Atlanta, GA 30306 US</h4>
+
 
     </footer> <!-- end footer -->
 
@@ -861,6 +933,7 @@ With the support of volunteers, the food for life is helping homeless to build a
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 </body>
 

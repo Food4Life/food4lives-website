@@ -31,8 +31,37 @@ $(document).ready(function(){
     //     alert("This email: "+ $(".email").val() + "  is now Subscribed.");
     // });
 
+
+    // //originaly 65px
+    // $(".s-header").css({ 'height': 135 + "px" });
+    // //original top: 12.5px;
+    // $(".nav-buttons").css({ 'top': 80 + "px" });
+    // //originally     top: 30px;
+    // $(".header-logo").css({ 'top': 100 + "px" });
+    //
+    // $("#gofundmead").css({ 'visibility': 'visible' });
+    //
+    // $(".header-nav").css({ 'top': 120 + "px" });
+    // $(".header-menu-toggle").css({ 'top': 80 + "px" });
+    //
+    // $("#gofundmead-close").on('click', function() {
+    //     // alert("close");
+    //     $("#gofundmead-close").css({ 'visibility': 'hidden' });
+    //     $("#gofundmead").css({ 'visibility': 'hidden' });
+    //     //originaly 65px
+    //     $(".s-header").css({ 'height': 65 + "px" });
+    //     //original top: 12.5px;
+    //     $(".nav-buttons").css({ 'top': 12.5 + "px" });
+    //     //originally     top: 30px;
+    //     $(".header-logo").css({ 'top': 30 + "px" });
+    //
+    //     $(".header-nav").css({ 'top': 50 + "px" });
+    //     $(".header-menu-toggle").css({ 'top': 10 + "px" });
+    //
+    // });
+
     //originaly 65px
-    $(".s-header").css({ 'height': 135 + "px" });
+    $(".s-header").css({ 'height': 150 + "px" });
     //original top: 12.5px;
     $(".nav-buttons").css({ 'top': 80 + "px" });
     //originally     top: 30px;
@@ -48,7 +77,7 @@ $(document).ready(function(){
         $("#gofundmead-close").css({ 'visibility': 'hidden' });
         $("#gofundmead").css({ 'visibility': 'hidden' });
         //originaly 65px
-        $(".s-header").css({ 'height': 65 + "px" });
+        $(".s-header").css({ 'height': 80 + "px" });
         //original top: 12.5px;
         $(".nav-buttons").css({ 'top': 12.5 + "px" });
         //originally     top: 30px;
