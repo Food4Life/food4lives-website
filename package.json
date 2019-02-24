@@ -1,0 +1,22 @@
+{
+  "name": "food4lives-website",
+  "version": "1.0.0",
+  "description": "Food for life is the organization, working to focus on under served and low-resourced communities. Volunteers plays a vital role in our efforts to end hunger in the United States. With the support of volunteers, the food for life is helping homeless to build a better future.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Food4Life/food4lives-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Food4Life/food4lives-website/issues"
+  },
+  "homepage": "https://github.com/Food4Life/food4lives-website#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.8"
+  }
+}
