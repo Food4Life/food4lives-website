@@ -70,6 +70,15 @@ html {
     font-size: 10px;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 400px) {
     html {
         font-size: 9.411764705882353px;
@@ -2450,77 +2459,126 @@ html.no-csstransitions .home-content__main {
     /*margin-right: 50px;*/
 
 }
+/*.service-item{*/
+    /*width: 200px;*/
+/*}*/
 
+@media only screen and (max-width: 3000px) {
+    .services-list{
+        padding-left: 25%;
+    }
+    .service-item{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 2000px) {
+    .services-list{
+        padding-left: 15%;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .services-list{
+        padding-left: 7.5%;
+    }
+}
 @media only screen and (max-width: 1600px) {
-    .s-services{
-        padding-left: 90px;
+    .services-list{
+        padding-right: 4%;
     }
 }
 @media only screen and (max-width: 1400px) {
-    .s-services{
-        padding-left: 70px;
+    .services-list{
+        padding-right: 10%;
     }
 }
 @media only screen and (max-width: 1300px) {
-    .s-services{
-        padding-left: 55px;
+    .services-list{
+        padding-right: 10%;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .s-services{
-        padding-left: 0px;
-    }
+    /*.s-services{*/
+        /*padding-left: 0px;*/
+    /*}*/
     .services-list{
         display: table;
-        padding-left: 300px;
+        margin-left: 23.25%;
+        /*padding-left: 300px;*/
     }
 }
 
 @media only screen and (max-width: 1100px) {
     .services-list{
         display: table;
-        padding-left: 290px;
+        margin-left: 19.5%;
     }
 }
 
 @media only screen and (max-width: 990px) {
     .services-list{
         display: table;
-        padding-left: 240px;
+        margin-left: 15%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     .services-list{
         display: table;
-        padding-left: 220px;
+        /*padding-left: 220px;*/
     }
 }
 
 @media only screen and (max-width: 800px) {
     .services-list{
         display: table;
-        padding-left: 165px;
+        margin-left: 12.25%;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .services-list{
         display: table;
-        padding-left: 105px;
+        margin-left: 10%;
+    }
+    .s-services{
+        padding-right: 30px;
     }
 }
 @media only screen and (max-width: 600px) {
     .services-list{
         display: table;
-        padding-left: 50px;
+        margin-left: 1.5%;
     }
 }
 @media only screen and (max-width: 500px) {
     .services-list{
         display: table;
+        margin-left: 0%;
+    }
+    .s-services{
         padding-left: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .services-list{
+        display: table;
+        margin-left: 0%;
+        padding-right: 65px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .service-item{
+        margin-right: 500px;
+        margin-left: 0px;
+    }
+    .s-services{
+        padding-right: 65px;
+        margin-left: 0px;
+        padding-left: 10px;
     }
 }
 
@@ -2528,7 +2586,7 @@ html.no-csstransitions .home-content__main {
     margin-bottom: .9rem;
     text-align: center;
     font-size: 2.1rem;
-    /*margin-left: 35px;*/
+    right: 20%;
 
 }
 
@@ -2540,12 +2598,12 @@ html.no-csstransitions .home-content__main {
 
     /*.services-list .service-item:nth-child(2n+1) {*/
     /*padding-right: 50px;*/
-    /*!*margin-left: 50px;*!*/
+    /*/*margin-left: 50px;*/*/
 /*}*/
 
 /*.services-list .service-item:nth-child(2n+2) {*/
     /*padding-left: 50px;*/
-    /*!*margin-right: 50px;*!*/
+    /*/*margin-right: 50px;*/*/
 /*}*/
 
 /*.services-list .service-text {*/
@@ -2561,8 +2619,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .service-item{
-    margin-left: 50px;
-    margin-right: 50px;
+    /*margin-left: 50px;*/
+    /*margin-right: 100px;*/
     width: 300px;
 }
 
@@ -2574,85 +2632,92 @@ html.no-csstransitions .home-content__main {
 }
 
 .service-text{
-    padding-right: 10px;
-    padding-left: 10px;
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
 }
 
 /* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-    .services-list {
-        /*max-width: 1200px;*/
-        left: 1200px;
-    }
-    /*.services-list .service-item:nth-child(2n+1) {*/
-        /*padding-right: 30px;*/
+/*@media only screen and (max-width: 1200px) {*/
+    /*.services-list {*/
+        /*!*max-width: 1200px;*!*/
+        /*left: 1200px;*/
     /*}*/
-    /*.services-list .service-item:nth-child(2n+2) {*/
-        /*padding-left: 30px;*/
+    /*!*.services-list .service-item:nth-child(2n+1) {*!*/
+        /*!*padding-right: 30px;*!*/
+    /*!*}*!*/
+    /*!*.services-list .service-item:nth-child(2n+2) {*!*/
+        /*!*padding-left: 30px;*!*/
+    /*!*}*!*/
+/*}*/
+
+/*@media only screen and (max-width: 1000px) {*/
+    /*.services-list h3 {*/
+        /*font-size: 2.5rem;*/
     /*}*/
-}
+    /*!*.services-list .service-item:nth-child(2n+1) {*!*/
+        /*!*padding-right: 20px;*!*/
+    /*!*}*!*/
+    /*!*.services-list .service-item:nth-child(2n+2) {*!*/
+        /*!*padding-left: 20px;*!*/
+    /*!*}*!*/
+/*}*/
 
-@media only screen and (max-width: 1000px) {
-    .services-list h3 {
-        font-size: 2.5rem;
-    }
-    /*.services-list .service-item:nth-child(2n+1) {*/
-        /*padding-right: 20px;*/
+/*@media only screen and (max-width: 800px) {*/
+    /*.services-list {*/
+        /*margin-top: 4.2rem;*/
+        /*max-width: 500px;*/
+        /*text-align: center;*/
     /*}*/
-    /*.services-list .service-item:nth-child(2n+2) {*/
-        /*padding-left: 20px;*/
+    /*!*.services-list .service-item:nth-child(n) {*!*/
+        /*!*padding-right: 15px;*!*/
+        /*!*padding-left: 15px;*!*/
+    /*!*}*!*/
+    /*.services-list h3 {*/
+        /*font-size: 3rem;*/
     /*}*/
-}
-
-@media only screen and (max-width: 800px) {
-    .services-list {
-        margin-top: 4.2rem;
-        max-width: 500px;
-        text-align: center;
-    }
-    /*.services-list .service-item:nth-child(n) {*/
-        /*padding-right: 15px;*/
-        /*padding-left: 15px;*/
+    /*.services-list .service-text {*/
+        /*margin-left: 0;*/
     /*}*/
-    .services-list h3 {
-        font-size: 3rem;
-    }
-    .services-list .service-text {
-        margin-left: 0;
-    }
-    .services-list .service-icon {
-        font-size: 4.5rem;
-        float: none;
-        margin-top: 0;
-    }
-}
+    /*.services-list .service-icon {*/
+        /*font-size: 4.5rem;*/
+        /*float: none;*/
+        /*margin-top: 0;*/
+    /*}*/
+/*}*/
 
-@media only screen and (max-width: 600px) {
-    .s-services {
-        padding-top: 12rem;
-    }
-    .services-list .service-item:nth-child(n) {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .services-list h3 {
-        font-size: 2.5rem;
-    }
-}
+/*@media only screen and (max-width: 600px) {*/
+    /*.s-services {*/
+        /*padding-top: 12rem;*/
+    /*}*/
+    /*!*.services-list .service-item:nth-child(n) {*!*/
+        /*!*padding-right: 10px;*!*/
+        /*!*padding-left: 10px;*!*/
+    /*!*}*!*/
+    /*.services-list h3 {*/
+        /*font-size: 2.5rem;*/
+    /*}*/
+/*}*/
 
-@media only screen and (max-width: 400px) {
-    .services-list .service-item:nth-child(n) {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .services-list h3 {
-        font-size: 2.5rem;
-    }
-}
+/*@media only screen and (max-width: 400px) {*/
+    /*!*.services-list .service-item:nth-child(n) {*!*/
+        /*!*padding-right: 10px;*!*/
+        /*!*padding-left: 0;*!*/
+    /*!*}*!*/
+    /*.services-list h3 {*/
+        /*font-size: 2.5rem;*/
+    /*}*/
+    /*.service-item .services-list{*/
+        /*!*margin-left: 105px;*!*/
+    /*}*/
+/*}*/
 
+
+.section-header{
+    text-align: center;
+}
 
 
 /* ===================================================================
