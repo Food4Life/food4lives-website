@@ -2448,7 +2448,7 @@ html.no-csstransitions .home-content__main {
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
-    padding-left: 90px;
+    /*padding-left: 90px;*/
 }
 
 /* -------------------------------------------------------------------
@@ -3626,7 +3626,7 @@ footer .row {
     border: none;
     width: 120px;
     height: 30px;
-    background: url("../images/logo2-1.svg") no-repeat center;
+    background: url("../images/logo.svg") no-repeat center;
     background-size: 120px 30px;
     font: 0/0 a;
     text-shadow: none;
