@@ -2563,7 +2563,7 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 410px) {
     .services-list{
         display: table;
         margin-left: 0%;
