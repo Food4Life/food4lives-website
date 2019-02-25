@@ -2,26 +2,19 @@ var x = 1;
 function carouselMover() {
     if (x === 1) {
         console.log("gallery");
-        $(".parallax-slider").attr("src","images/Main1.jpeg");
+        $(".parallax-slider").attr("src","images/Carousel-01.jpg");
         x = 2;
     } else if (x == 2){
-        $(".parallax-slider").attr("src","images/Carousel-01.jpg");
+        $(".parallax-slider").attr("src","images/Carousel-02.jpg");
         x = 3;
     }else if (x == 3){
-        $(".parallax-slider").attr("src","images/Carousel-02.jpg");
+        $(".parallax-slider").attr("src","images/Carousel-03.jpg");
         x = 4;
     }else if (x == 4){
-        $(".parallax-slider").attr("src","images/Carousel-03.jpg");
-        x = 5;
-    }else if (x == 5){
         $(".parallax-slider").attr("src","images/Carousel-04.jpg");
-        x = 6;
-    }else if (x == 6){
-        $(".parallax-slider").attr("src","images/Carousel-05.jpg");
         x = 0;
-    }else {
-        console.log("hero");
-        $(".parallax-slider").attr("src","images/hero-bg.jpg");
+    }else{
+        $(".parallax-slider").attr("src","images/Carousel-05.jpg");
         x = 1;
     }
 }
