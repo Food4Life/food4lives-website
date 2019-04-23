@@ -24,19 +24,44 @@ $(document).ready(function(){
     //     alert("This email: "+ $(".email").val() + "  is now Subscribed.");
     // });
 
-    //originaly 65px
-    $(".s-header").css({ 'height': 135 + "px" });
-    //original top: 12.5px;
-    $(".nav-buttons").css({ 'top': 80 + "px" });
-    //originally     top: 30px;
-    $(".header-logo").css({ 'top': 100 + "px" });
+    let width = $(document).width();
 
-    $("#gofundmead").css({ 'visibility': 'visible' });
+    if (width < 700) {
+        //#gofundmead original height: 70px;
+        $(".gofundmead-text").html(' Help fund our new kitchen: \n' +
+            '                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"\n' +
+            '                    target="_blank" style="text-decoration: underline; color: white;">GoFundMe</a>');
+        // $("#gofundmead").css({ 'height': 150 + "px" });
+        // //originaly 65px
+        // $(".s-header").css({ 'height': 195 + "px" });
+        // //original top: 12.5px;
+        // $(".nav-buttons").css({ 'top': 140 + "px" });
+        // //originally     top: 30px;
+        // $(".header-logo").css({ 'top': 160 + "px" });
+        //
+        // $("#gofundmead").css({ 'visibility': 'visible' });
+        //
+        // $(".header-nav").css({ 'top': 180 + "px" });
+        // $(".header-menu-toggle").css({ 'top': 140 + "px" });
 
-    $(".header-nav").css({ 'top': 120 + "px" });
-    $(".header-menu-toggle").css({ 'top': 80 + "px" });
+    }
+    // else {
+        $("#gofundmead").css({ 'height': 70 + "px" });
+        //originaly 65px
+        $(".s-header").css({ 'height': 145 + "px" });
+        //original top: 12.5px;
+        $(".nav-buttons").css({ 'top': 90 + "px" });
+        //originally     top: 30px;
+        $(".header-logo").css({ 'top': 110 + "px" });
 
+        $("#gofundmead").css({ 'visibility': 'visible' });
+
+        $(".header-nav").css({ 'top': 130 + "px" });
+        $(".header-menu-toggle").css({ 'top': 90 + "px" });
+
+    // }
     $("#gofundmead-close").on('click', function() {
+        $("#gofundmead").css({ 'height': 70 + "px" });
         // alert("close");
         $("#gofundmead-close").css({ 'visibility': 'hidden' });
         $("#gofundmead").css({ 'visibility': 'hidden' });

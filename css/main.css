@@ -1328,7 +1328,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## Gofundme Ad
  * ------------------------------------------------------------------- */
 #gofundmead{
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: rgb(var(--pure-material-primary-rgb,255,112,67));
     border-color: rgb(var(--pure-material-primary-rgb,255,112,67));
