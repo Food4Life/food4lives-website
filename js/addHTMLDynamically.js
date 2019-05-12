@@ -1,4 +1,5 @@
-$("#header-get-area").html(`
+function addHeader() {
+    $("#header-get-area").html(`
         <header class="s-header card">
         <!--display: flex; width: 100%;align-items: stretch;-->
         <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
@@ -87,5 +88,7 @@ $("#header-get-area").html(`
             <span class="header-menu-text">Menu</span>
             <span class="header-menu-icon"></span>
         </a>
+
     </header> <!-- end s-header -->
-`);
+    `);
+}
