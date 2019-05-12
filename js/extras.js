@@ -25,12 +25,19 @@ $(document).ready(function(){
     // });
 
     let width = $(document).width();
+    let orWidth = $(window).width();
 
-    if (width < 700) {
+    addHeader();
+
+
+    if (width < 800 || orWidth < 800) {
         //#gofundmead original height: 70px;
         $(".gofundmead-text").html(' Help fund our new kitchen: \n' +
             '                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"\n' +
             '                    target="_blank" style="text-decoration: underline; color: white;">GoFundMe</a>');
+
+        $("#gofundmead").css({ 'height': 50 + "px" });
+
         // $("#gofundmead").css({ 'height': 150 + "px" });
         // //originaly 65px
         // $(".s-header").css({ 'height': 195 + "px" });
@@ -44,9 +51,10 @@ $(document).ready(function(){
         // $(".header-nav").css({ 'top': 180 + "px" });
         // $(".header-menu-toggle").css({ 'top': 140 + "px" });
 
+    } else {
+        $("#gofundmead").css({ 'height': 70 + "px" });
     }
     // else {
-        $("#gofundmead").css({ 'height': 70 + "px" });
         //originaly 65px
         $(".s-header").css({ 'height': 145 + "px" });
         //original top: 12.5px;
