@@ -1,5 +1,5 @@
 function addHeader() {
-    $("#header-get-area").html(`
+    $("#header-get-area").replaceWith(`
         <header class="s-header card">
         <!--display: flex; width: 100%;align-items: stretch;-->
         <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
@@ -16,7 +16,7 @@ function addHeader() {
                 <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"
                     target="_blank" style="text-decoration: underline; color: white;">Donate at GoFundMe</a>
                 <div style="margin-top: -20px">
-                    2% Raised by 60 People
+                    ~2% Raised by 63 People
                 </div>
             </div>
             <!--flex: 1;   flex-grow: 1;-->
@@ -36,7 +36,8 @@ function addHeader() {
             href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>
         <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
         <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
-
+        <a id="donors-nav" class=" nav-buttons" href="donors.html">Monthly Donors</a>
+        
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
         <nav class="header-nav" style="background-color: #000">
@@ -51,6 +52,7 @@ function addHeader() {
                             title="events">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="events.html" title="services">Volunteer</a></li>
+                    <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->

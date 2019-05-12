@@ -19,6 +19,8 @@ function carouselMover() {
     }
 }
 $(document).ready(function(){
+    // addHeader();
+
     setInterval(carouselMover,5000);
     // $("#submitSubscribe").on('click', function() {
     //     alert("This email: "+ $(".email").val() + "  is now Subscribed.");
@@ -26,9 +28,6 @@ $(document).ready(function(){
 
     let width = $(document).width();
     let orWidth = $(window).width();
-
-    addHeader();
-
 
     if (width < 800 || orWidth < 800) {
         //#gofundmead original height: 70px;

@@ -1070,6 +1070,13 @@ textarea {
 
 }
 
+#donors-nav{
+    position: fixed;
+    left: 59%;
+    margin-left: -100px;
+    color: white;
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+}
 
 .pure-material-button-contained {
     position: relative;
@@ -1190,6 +1197,10 @@ textarea {
     color: rgb(var(--pure-material-primary-rgb,255,112,67));
 }
 
+#donors-nav:hover{
+    color: rgb(var(--pure-material-primary-rgb,255,112,67));
+}
+
 #upcoming-events{
     color: rgb(var(--pure-material-primary-rgb,255,255,255));
     background-color: rgb(var(--pure-material-primary-rgb,255,112,67));
@@ -1222,6 +1233,9 @@ textarea {
     #donate-nav{
         left: 75.5%;
     }
+    #donors-nav{
+        left: 50.5%;
+    }
 }
 
 /*@media screen and (max-width: 1030px) {*/
@@ -1245,6 +1259,10 @@ textarea {
     #volunteer-nav{
         left: 60.5%;
     }
+
+    #donors-nav{
+        left: 46.5%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1256,6 +1274,10 @@ textarea {
     #volunteer-nav{
         left: 59.5%;
     }
+
+    #donors-nav{
+        left: 44.5%;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -1266,6 +1288,9 @@ textarea {
 
     #volunteer-nav{
         left: 57%;
+    }
+    #donors-nav{
+        left: 42.5%;
     }
 }
 
@@ -1282,6 +1307,9 @@ textarea {
     #volunteer-nav{
         left: 55.5%;
     }
+    #donors-nav{
+        left: 40.5%;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -1296,6 +1324,9 @@ textarea {
 
     #volunteer-nav{
         left: 48.5%;
+    }
+    #donors-nav{
+        left: 33.5%;
     }
 }
 
@@ -1393,7 +1424,7 @@ input::placeholder{
     /*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);*/
 }
 .progress-moved .progress-bar2 {
-    width: 2.57%;
+    width: 2.645%;
     background-color: #ff7043;
     animation: progressAnimation 6s;
 }
