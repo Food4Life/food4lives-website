@@ -1234,7 +1234,7 @@ textarea {
         left: 75.5%;
     }
     #donors-nav{
-        left: 50.5%;
+        left: 45.5%;
     }
 }
 
@@ -1261,7 +1261,7 @@ textarea {
     }
 
     #donors-nav{
-        left: 46.5%;
+        left: 41.5%;
     }
 }
 
@@ -1276,7 +1276,7 @@ textarea {
     }
 
     #donors-nav{
-        left: 44.5%;
+        left: 39.75%;
     }
 }
 
@@ -1290,45 +1290,45 @@ textarea {
         left: 57%;
     }
     #donors-nav{
-        left: 42.5%;
+        left: 36%;
     }
 }
 
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {*/
 
-    #sponsor-nav{
-        left: 87.5%;
-    }
+    /*#sponsor-nav{*/
+        /*left: 87.5%;*/
+    /*}*/
 
-    #donate-nav{
-        left: 70.5%;
-    }
+    /*#donate-nav{*/
+        /*left: 70.5%;*/
+    /*}*/
 
-    #volunteer-nav{
-        left: 55.5%;
-    }
-    #donors-nav{
-        left: 40.5%;
-    }
-}
+    /*#volunteer-nav{*/
+        /*left: 55.5%;*/
+    /*}*/
+    /*#donors-nav{*/
+        /*left: 40.5%;*/
+    /*}*/
+/*}*/
 
-@media screen and (max-width: 690px) {
+/*@media screen and (max-width: 690px) {*/
 
-    #sponsor-nav{
-        left: 86%;
-    }
+    /*#sponsor-nav{*/
+        /*left: 86%;*/
+    /*}*/
 
-    #donate-nav{
-        left: 66%;
-    }
+    /*#donate-nav{*/
+        /*left: 66%;*/
+    /*}*/
 
-    #volunteer-nav{
-        left: 48.5%;
-    }
-    #donors-nav{
-        left: 33.5%;
-    }
-}
+    /*#volunteer-nav{*/
+        /*left: 48.5%;*/
+    /*}*/
+    /*#donors-nav{*/
+        /*left: 33.5%;*/
+    /*}*/
+/*}*/
 
 .raisedbox {
     /*padding: 10px;*/
