@@ -1223,7 +1223,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1250px) {
     #sponsor-nav{
         left: 89%;
     }
@@ -1428,3 +1428,15 @@ input::placeholder{
     background-color: #ff7043;
     animation: progressAnimation 6s;
 }
+@media only screen and (max-width: 8000px) {
+    #sponsor-nav, #donors-nav, #donate-nav, #volunteer-nav {
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 820px) {
+    #sponsor-nav, #donors-nav, #donate-nav, #volunteer-nav {
+        visibility: hidden;
+    }
+}
+
+

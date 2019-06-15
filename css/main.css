@@ -3879,3 +3879,9 @@ a:active {
 .main-page-words{
     text-align: center;
 }
+#help-out {
+    color: white;
+}
+#help-out:hover {
+    color: #ff7043;
+}
