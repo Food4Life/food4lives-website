@@ -47,7 +47,7 @@
 <!-- header
     ================================================== -->
 <span id="header-get-area"></span>
-
+<script>addHeader();</script>
   <!--<div class="menubar">-->
     <!--<a href="index.html" id="logo" class="logo">Food4Life.</a>-->
     <!--<button onClick="window.location='rsvp-page.html';" class="volunteer">VOLUNTEER</button>-->
@@ -123,5 +123,60 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function() {
+        // if (width < 800 || orWidth < 800) {
+        //     //#gofundmead original height: 70px;
+        //     $(".gofundmead-text").html(' Help fund our new kitchen: \n' +
+        //         '                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"\n' +
+        //         '                    target="_blank" style="text-decoration: underline; color: white;">GoFundMe</a>');
+        //
+        //     $("#gofundmead").css({ 'height': 50 + "px" });
+        //
+        //     // $("#gofundmead").css({ 'height': 150 + "px" });
+        //     // //originaly 65px
+        //     // $(".s-header").css({ 'height': 195 + "px" });
+        //     // //original top: 12.5px;
+        //     // $(".nav-buttons").css({ 'top': 140 + "px" });
+        //     // //originally     top: 30px;
+        //     // $(".header-logo").css({ 'top': 160 + "px" });
+        //     //
+        //     // $("#gofundmead").css({ 'visibility': 'visible' });
+        //     //
+        //     // $(".header-nav").css({ 'top': 180 + "px" });
+        //     // $(".header-menu-toggle").css({ 'top': 140 + "px" });
+        //
+        // } else {
+        //     $("#gofundmead").css({ 'height': 70 + "px" });
+        // }
+        // else {
+        //originaly 65px
+        $(".s-header").css({ 'height': 145 + "px" });
+        //original top: 12.5px;
+        $(".nav-buttons").css({ 'top': 90 + "px" });
+        //originally     top: 30px;
+        $(".header-logo").css({ 'top': 110 + "px" });
+
+        $("#gofundmead").css({ 'visibility': 'visible' });
+
+        $(".header-nav").css({ 'top': 130 + "px" });
+        $(".header-menu-toggle").css({ 'top': 90 + "px" });
+
+        // }
+            $("#gofundmead").css({ 'height': 70 + "px" });
+            // alert("close");
+            $("#gofundmead-close").css({ 'visibility': 'hidden' });
+            $("#gofundmead").css({ 'visibility': 'hidden' });
+            //originaly 65px
+            $(".s-header").css({ 'height': 85 + "px" });
+            //original top: 12.5px;
+            $(".nav-buttons").css({ 'top': 12.5 + "px" });
+            //originally     top: 30px;
+            $(".header-logo").css({ 'top': 30 + "px" });
+
+            $(".header-nav").css({ 'top': 50 + "px" });
+            $(".header-menu-toggle").css({ 'top': 10 + "px" });
+
+    });</script>
 </body>
 </html>
