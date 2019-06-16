@@ -85,6 +85,22 @@ $(document).ready(function(){
     });
 });
 
+function removeAd() {
+    $("#gofundmead").css({ 'height': 70 + "px" });
+    // alert("close");
+    $("#gofundmead-close").css({ 'visibility': 'hidden' });
+    $("#gofundmead").css({ 'visibility': 'hidden' });
+    //originaly 65px
+    $(".s-header").css({ 'height': 65 + "px" });
+    //original top: 12.5px;
+    $(".nav-buttons").css({ 'top': 12.5 + "px" });
+    //originally     top: 30px;
+    $(".header-logo").css({ 'top': 30 + "px" });
+
+    $(".header-nav").css({ 'top': 50 + "px" });
+    $(".header-menu-toggle").css({ 'top': 10 + "px" });
+}
+
 $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: 160,
