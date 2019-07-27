@@ -1,44 +1,38 @@
-<!DOCTYPE html>
-<!--[if lt IE 9 ]>
-<html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]>
-<html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<!doctype html>
+<html>
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Food For Life </title>
-    <meta name="description"
-          content="Food for life is the organization, working to focus on serving food to underserved and low-resourced communities in the United States">
+    <title>Food For Lives </title>
+<!--     <meta name="description" content="Food for life is the organization, working to focus on serving food to underserved and low-resourced communities in the United States"> -->
     <meta name="author" content="">
 
-    <meta property="og:title" content="Food For Life">
-    <meta property="og:description"
-          content="Food for life is the organization, working to focus on serving food to underserved and low-resourced communities in the United States">
-    <meta property="og:image" content="https://food4lives.org/images/meta-logo.png">
-    <meta property="og:url" content="https://food4lives.org/">
+    	<meta property="og:title" content="Food For Lives">
+	<meta property="og:description" content="Food for lives is the organization, working to focus on serving food to underserved and low-resourced communities in the United States">
+	<meta property="og:image" itemprop="image" content="http://food4lives.org/images/thumbnailv1.png">
+	<meta property="og:image:secure_url" content="https://food4lives.org/images/thumbnailv1.png" />
 
-    <!-- Add AMP for main Page Of Possible -->
+<!--     <meta property="og:image:type" content="image/jpeg" /> -->
+     	<meta property="og:image:width" content="256" />
+	<meta property="og:image:height" content="256" />
+<!-- 	<meta property="og:url" content="https://food4lives.org/"> -->
+	<meta property="og:type" content="website" />
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- mobile specific metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,400,300,500,700" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="css/standardize1.css">-->
+    <link rel="stylesheet" href="css/donate-things-grid.css">
+    <link rel="stylesheet" href="css/donate-things.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
 
-    <!-- script
-    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="js/modernizr.js"></script>
@@ -46,213 +40,78 @@
     <script src="js/extras.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
-    <script> window.DonorBox = {widgetLinkClassName: 'custom-dbox-popup'} </script>
+    <script src="js/extras_donate_things.js"></script>
 
 </head>
-
-<body id="top">
-
+<body class="top" style="font-family: 'Josefin Sans', sans-serif;">
 <!-- header
-================================================== -->
+    ================================================== -->
 <span id="header-get-area"></span>
 <script>addHeader();</script>
-
-<!-- home
-================================================== -->
-<!--<div id="slideshow">-->
-<!--<div>-->
-<!--<img src="./images/hero-bg.jpg">-->
-<!--</div>-->
-<!--<div>-->
-<!--<img src="./images/portfolio/gallery/6.jpg">-->
-<!--</div>-->
-<!--<div>-->
-<!--Pretty cool eh? This slide is proof the content can be anything.-->
-<!--</div>-->
-<!--</div>-->
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
-         data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
+  <!--<div class="menubar">-->
+    <!--<a href="index.html" id="logo" class="logo">Food4Life.</a>-->
+    <!--<button onClick="window.location='rsvp-page.html';" class="volunteer">VOLUNTEER</button>-->
+    <!--<button onClick="window.location='donate-things.html';" class="donate">DONATE</button>-->
+    <!--<button onClick="window.location='give-now.html';" class="sponsor">Sponsor a meaL</button>-->
+    <!--<div class="header"></div>-->
+  <!--</div>-->
+<div style="margin-bottom: -20px;">
+    <div class="image"></div>
     <div class="overlay"></div>
-    <div class="shadow-overlay"></div>
-
-    <div class="home-content">
-
-        <div class="row home-content__main">
-
-            <h3>Food For Life Initiative</h3>
-
-            <h1 style="color: #ff7043">
-                FEED <br>
-                EDUCATE<br>
-                SERVE<br>
-            </h1>
-
-            <div class="home-content__buttons">
-                <!-- <a href="#contact" class="smoothscroll btn btn--stroke">
-                    Explore More!
-                </a> -->
-
-                <form>
-                    <a href="https://donorbox.org/food4lives-donation"
-                       class="custom-dbox-popup btn btn--stroke btn-donate btn-custom-hover">
-                        <i class="fa fa-heart"></i> Donate
-                    </a>
-                    <a href="/events.html" class="btn btn--stroke btn-donate">
-                        Upcoming Events
-                    </a>
-                </form>
-                <!-- <a href="#about" class="smoothscroll btn btn--stroke btn-donate">
-                  <i class="fa fa-heart"></i> Donate
-              </a> -->
-            </div>
-
-        </div>
-
-        <div class="home-content__scroll">
-            <a href="#about" class="scroll-link smoothscroll">
-                <span>Scroll Down</span>
-            </a>
-        </div>
-
-        <div class="home-content__line"></div>
-
-    </div> <!-- end home-content -->
-
-
-    <!--<ul class="home-social">
-        <li>
-            <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-        </li>
-        <li>
-            <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-        </li>
-        <li>
-            <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-        </li>
-        <li>
-            <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-        </li>
-        <li>
-            <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-        </li>
-    </ul>
-    <!-- end home-social -->
-
-</section> <!-- end s-home -->
-
-
-
-<!-- clients
-================================================== -->
-<section id="volunteers" class="s-clients">
-
-    <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead">Our Volunteers </h3>
-            <h1 class="display-2">We are Thankful to Large Community of Altruist Volunteers</h1>
-        </div>
-    </div> <!-- end section-header -->
-
-    <div class="row clients-testimonials" data-aos="fade-up">
-        <div class="col-full">
-            <div class="testimonials">
-
-                <div class="testimonials__slide">
-
-                    <p>I like doing selfless service (seva) because it shows me the power of giving. I get to give
-                        several loving hours out of my week to bring joy to hundreds of people. It’s also a friendly
-                        reminder that we’re all human beings and that we’re all on this planet for only a short
-                        while.</p>
-
-                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Leo</span>
-                        <span class="testimonials__pos">Volunteer</span>
-                    </div>
-
-                </div>
-
-                <div class="testimonials__slide">
-
-                    <p>Food4Life is a faith-driven initiative that seeks to provide Atlanta homeless with both physical
-                        and spiritual nourishment through freshly prepared meals. I joined the Food4life team so that I
-                        could serve others outside of myself. Among the hustle and bustle of my own daily life, it is
-                        easy to forget the plight of others. But every Saturday, I have the honor of preparing hot meals
-                        with a sincerely caring group and then serving these meals face-to-face to the community. I hope
-                        that, through Lord Krishna’s grace and our helping hands, we are able to feed some souls with
-                        good food and God’s love.</p>
-
-                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Cyrstal Rathore</span>
-                        <span class="testimonials__pos">Volunteer</span>
-                    </div>
-
-                </div>
-
-                <div class="testimonials__slide">
-
-                    <p>Thanks for Food for Life team and ISKCON Community for doing such a great service and given me
-                        opportunity to serve. Every Saturday feeding vegetarian food for hundreds of homeless is a great
-                        service, by volunteering here gives me positivity, motivates and inspire me to do more service
-                        in all the possible ways.</p>
-
-                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Nagesh </span>
-                        <span class="testimonials__pos">Volunteer</span>
-                    </div>
-
-                </div>
-
-            </div><!-- end testimonials -->
-
-        </div> <!-- end col-full -->
-    </div> <!-- end client-testimonials -->
-
-</section> <!-- end s-clients -->
-
-
+    <p class="title">Donate To Our Causes</p>
+    <div class="clothesicon"></div>
+    <div class="callicon"></div>
+    <div class="dropofficon"></div>
+    <p class="collect">
+        <span style="color:white">Help Fund Our Kitchen's Rent</span>
+        <a style="background-color:rgb(255, 112, 67)
+        ;color:white;" class="pure-material-button-contained nav-buttons custom-dbox-popup"
+        href="https://donorbox.org/fund-kitchen">
+        Fund Kitchen</a></p>
+    <p class="call">
+            <span style="color:white">Feed People During Our Weekly Saturday Event</span>
+            <a style="background-color:rgb(255, 112, 67)
+            ;color:white;" class="pure-material-button-contained nav-buttons custom-dbox-popup"
+            href="https://donorbox.org/sponsor-saturday">Feed People</a>
+    </p>
+    <p class="dropoff">
+            <span style="color:white">Donate What You Want</span>
+            <a style="background-color:rgb(255, 112, 67)
+            ;color:white;" class="pure-material-button-contained nav-buttons custom-dbox-popup"
+            href="https://donorbox.org/food4lives-donation">Donate</a>
+    </p>
+</div>
+<br>
 
 <!-- footer
 ================================================== -->
 <footer>
 
-    <div class="row footer-main">
+    <div class="row footer-main" style="padding-top: 750px;">
 
-        <div class="col-six tab-full left footer-desc">
+        <div class="col-full tab-full left footer-desc" style="font-family: 'Josefin Sans', sans-serif;">
 
-            <div class="footer-logo"></div>
-            Food for life is the organization, working to focus on underserved and low-resourced communities. Volunteers
-            plays a vital role in our efforts to end hunger in the United States.
+            <div style="text-align: center;"><div class="footer-logo" style="display: inline-block;"></div></div>
+            Food for lives is the organization, working to focus on underserved and low-resourced communities. Volunteers plays a vital role in our efforts to end hunger in the United States.
             With the support of volunteers, the food for life is helping homeless to build a better future.
 
-        </div>
-
-        <div class="col-six tab-full right footer-subscribe">
-
-            <h4>Get Notified</h4>
-            <p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding
-                Homeless people.</p>
-
-            <div class="subscribe-form">
-                <form id="mc-form" class="group" novalidate="true">
-                    <input type="email" disabled value="" name="EMAIL" class="email" id="mc-email"
-                           placeholder="Email Address" required="">
-                    <input type="submit" name="subscribe" value="Subscribe">
-                    <label for="mc-email" class="subscribe-message"></label>
-                </form>
-            </div>
 
         </div>
+
+        <!--<div class="col-six tab-full right footer-subscribe">-->
+
+        <!--<h4>Get Notified</h4>-->
+        <!--<p>Please Subscribe to our weekly Event Notification and Updates. It includes picks and events for Feeding Homeless people.</p>-->
+
+        <!--<div class="subscribe-form">-->
+        <!--<form id="mc-form" class="group" novalidate="true">-->
+        <!--<input type="email"  value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">-->
+        <!--<input type="submit" name="subscribe" value="Subscribe" id="submitSubscribe">-->
+        <!--&lt;!&ndash;<label for="mc-email" class="subscribe-message"></label>&ndash;&gt;-->
+        <!--</form>-->
+        <!--</div>-->
+
+        <!--</div>-->
 
     </div> <!-- end footer-main -->
 
@@ -267,75 +126,48 @@
 
     </div> <!-- end footer-bottom -->
 
+    <h4 style="font-family: 'Josefin Sans', sans-serif;">Desiretreefoundation inc is a 501(c)(3) tax-exempt
+        organization. Donations and contributions are tax deductible as allowed by law.<br>
+        1122 Old Chattahoochee Ave NW, Atlanta, GA 30318 US</h4>
+
+
 </footer> <!-- end footer -->
 
+    <!-- Java Script
+       ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function() {
+        //originaly 65px
+        $(".s-header").css({ 'height': 145 + "px" });
+        //original top: 12.5px;
+        $(".nav-buttons").css({ 'top': 90 + "px" });
+        //originally     top: 30px;
+        $(".header-logo").css({ 'top': 110 + "px" });
 
-<!-- photoswipe background
-================================================== -->
-<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        $("#gofundmead").css({ 'visibility': 'visible' });
 
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
+        $(".header-nav").css({ 'top': 130 + "px" });
+        $(".header-menu-toggle").css({ 'top': 90 + "px" });
 
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
+        // }
+            $("#gofundmead").css({ 'height': 70 + "px" });
+            // alert("close");
+            $("#gofundmead-close").css({ 'visibility': 'hidden' });
+            $("#gofundmead").css({ 'visibility': 'hidden' });
+            //originaly 65px
+            $(".s-header").css({ 'height': 85 + "px" });
+            //original top: 12.5px;
+            $(".nav-buttons").css({ 'top': 12.5 + "px" });
+            //originally     top: 30px;
+            $(".header-logo").css({ 'top': 30 + "px" });
 
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title=
-                        "Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title=
-                        "Zoom in/out"></button>
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-            <button class="pswp__button pswp__button--arrow--right" title=
-                    "Next (arrow right)"></button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
+            $(".header-nav").css({ 'top': 50 + "px" });
+            $(".header-menu-toggle").css({ 'top': 10 + "px" });
 
-    </div>
-
-</div> <!-- end photoSwipe background -->
-
-
-<!-- preloader
-================================================== -->
-<div id="preloader">
-    <div id="loader">
-        <div class="line-scale-pulse-out">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Java Script
-================================================== -->
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
+    });</script>
 </body>
 </html>

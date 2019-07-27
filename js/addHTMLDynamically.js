@@ -33,7 +33,7 @@ function addHeader() {
             </a>
         </div>
         <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"
-            href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>
+        href="donate.html">Sponsor A Meal</a>
         <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
         <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
         <a id="donors-nav" class=" nav-buttons" href="donors.html">Monthly Donors</a>
@@ -48,7 +48,7 @@ function addHeader() {
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
-                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation"
+                    <li><a href="donate.html"
                             title="events">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="events.html" title="services">Volunteer</a></li>
