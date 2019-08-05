@@ -26,53 +26,53 @@ $(document).ready(function(){
     //     alert("This email: "+ $(".email").val() + "  is now Subscribed.");
     // });
 
-    let width = $(document).width();
-    let orWidth = $(window).width();
-
-    if (width < 800 || orWidth < 800) {
-        //#gofundmead original height: 70px;
-        $(".gofundmead-text").html(' Help fund our new kitchen: \n' +
-            '                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"\n' +
-            '                    target="_blank" style="text-decoration: underline; color: white;">GoFundMe</a>');
-
-        $("#gofundmead").css({ 'height': 50 + "px" });
-
-        // $("#gofundmead").css({ 'height': 150 + "px" });
-        // //originaly 65px
-        // $(".s-header").css({ 'height': 195 + "px" });
-        // //original top: 12.5px;
-        // $(".nav-buttons").css({ 'top': 140 + "px" });
-        // //originally     top: 30px;
-        // $(".header-logo").css({ 'top': 160 + "px" });
-        //
-        // $("#gofundmead").css({ 'visibility': 'visible' });
-        //
-        // $(".header-nav").css({ 'top': 180 + "px" });
-        // $(".header-menu-toggle").css({ 'top': 140 + "px" });
-
-    } else {
-        $("#gofundmead").css({ 'height': 70 + "px" });
-    }
-    // else {
-        //originaly 65px
-        $(".s-header").css({ 'height': 145 + "px" });
-        //original top: 12.5px;
-        $(".nav-buttons").css({ 'top': 90 + "px" });
-        //originally     top: 30px;
-        $(".header-logo").css({ 'top': 110 + "px" });
-
-        $("#gofundmead").css({ 'visibility': 'visible' });
-
-        $(".header-nav").css({ 'top': 130 + "px" });
-        $(".header-menu-toggle").css({ 'top': 90 + "px" });
-
+    // let width = $(document).width();
+    // let orWidth = $(window).width();
+    //
+    // if (width < 800 || orWidth < 800) {
+    //     //#gofundmead original height: 70px;
+    //     $(".gofundmead-text").html(' Help fund our new kitchen: \n' +
+    //         '                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"\n' +
+    //         '                    target="_blank" style="text-decoration: underline; color: white;">GoFundMe</a>');
+    //
+    //     $("#gofundmead").css({ 'height': 50 + "px" });
+    //
+    //     // $("#gofundmead").css({ 'height': 150 + "px" });
+    //     // //originaly 65px
+    //     // $(".s-header").css({ 'height': 195 + "px" });
+    //     // //original top: 12.5px;
+    //     // $(".nav-buttons").css({ 'top': 140 + "px" });
+    //     // //originally     top: 30px;
+    //     // $(".header-logo").css({ 'top': 160 + "px" });
+    //     //
+    //     // $("#gofundmead").css({ 'visibility': 'visible' });
+    //     //
+    //     // $(".header-nav").css({ 'top': 180 + "px" });
+    //     // $(".header-menu-toggle").css({ 'top': 140 + "px" });
+    //
+    // } else {
+    //     $("#gofundmead").css({ 'height': 70 + "px" });
     // }
-    $("#gofundmead-close").on('click', function() {
-        $("#gofundmead").css({ 'height': 70 + "px" });
-        // alert("close");
-        $("#gofundmead-close").css({ 'visibility': 'hidden' });
-        $("#gofundmead").css({ 'visibility': 'hidden' });
-        //originaly 65px
+    // // else {
+    //     //originaly 65px
+    //     $(".s-header").css({ 'height': 145 + "px" });
+    //     //original top: 12.5px;
+    //     $(".nav-buttons").css({ 'top': 90 + "px" });
+    //     //originally     top: 30px;
+    //     $(".header-logo").css({ 'top': 110 + "px" });
+    //
+    //     $("#gofundmead").css({ 'visibility': 'visible' });
+    //
+    //     $(".header-nav").css({ 'top': 130 + "px" });
+    //     $(".header-menu-toggle").css({ 'top': 90 + "px" });
+    //
+    // // }
+    // $("#gofundmead-close").on('click', function() {
+    //     $("#gofundmead").css({ 'height': 70 + "px" });
+    //     // alert("close");
+    //     $("#gofundmead-close").css({ 'visibility': 'hidden' });
+    //     $("#gofundmead").css({ 'visibility': 'hidden' });
+    //     //originaly 65px
         $(".s-header").css({ 'height': 65 + "px" });
         //original top: 12.5px;
         $(".nav-buttons").css({ 'top': 12.5 + "px" });
@@ -81,8 +81,8 @@ $(document).ready(function(){
 
         $(".header-nav").css({ 'top': 50 + "px" });
         $(".header-menu-toggle").css({ 'top': 10 + "px" });
-
-    });
+    //
+    // });
 });
 
 function removeAd() {
