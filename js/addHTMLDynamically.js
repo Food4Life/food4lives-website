@@ -1,13 +1,13 @@
 function addHeader() {
     $("#header-get-area").replaceWith(`
         <header class="s-header card">
-                <div class="header-logo"  style="left: 45%;">
+         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo.svg" alt="Homepage">
             </a>
         </div>
         </header>
-       <header class="s-header card" style="margin-top: 65px;" id="Header2">
+       <header class="s-header card" style="" id="Header2">
 
         <span style="text-align: center;  display: flex; align-items: center; justify-content: center;">
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>
@@ -26,7 +26,7 @@ function addHeader() {
 
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
-        <nav class="header-nav" style="background-color: #000; margin-top: 65px;">
+        <nav class="header-nav" style="background-color: #000; margin-top: 65px; top: 0;">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content" style="background-color: #000">
@@ -34,6 +34,7 @@ function addHeader() {
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
+                    <li class=""><a class="" href="about.html" title="home">About</a></li>
                     <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation"
                             title="events">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>

@@ -76,10 +76,10 @@ $(document).ready(function(){
         $(".s-header").css({ 'height': 65 + "px" });
         //original top: 12.5px;
         $(".nav-buttons").css({ 'top': 12.5 + "px" });
-        //originally     top: 30px;
+        // //originally     top: 30px;
         $(".header-logo").css({ 'top': 30 + "px" });
-
-        $(".header-nav").css({ 'top': 50 + "px" });
+        //
+        // $(".header-nav").css({ 'top': 50 + "px" });
         $(".header-menu-toggle").css({ 'top': 10 + "px" });
     //
     // });
