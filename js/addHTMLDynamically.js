@@ -10,6 +10,7 @@ function addHeader() {
        <header class="s-header card" style="" id="Header2">
 
         <span style="text-align: center;  display: flex; align-items: center; justify-content: center;">
+            <a id="donors-nav" class=" nav-buttons" href="contact.html">Contact Us</a>
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>
             <a id="donors-nav" class=" nav-buttons" href="donors.html">Monthly Donors</a>
             <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
@@ -34,9 +35,9 @@ function addHeader() {
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
-                    <li class=""><a class="" href="about.html" title="home">About</a></li>
-                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation"
-                            title="events">Sponsor A Meal</a></li>
+                    <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
+                    <li class=""><a class="" href="about.html" title="about">About</a></li>
+                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="events.html" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
