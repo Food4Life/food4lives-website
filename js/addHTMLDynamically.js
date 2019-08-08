@@ -1,33 +1,7 @@
 function addHeader() {
     $("#header-get-area").replaceWith(`
         <header class="s-header card">
-        <!--display: flex; width: 100%;align-items: stretch;-->
-        <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
-            <!--flex: 0 0 65%;  flex-grow: 1;-->
-            <div class="gofundmead-text"
-                style="color: white; line-height: 50px;vertical-align: center;text-align: center;font-family: 'Josefin Sans', sans-serif;   flex: 0 0 85%;  flex-shrink: 0;flex-grow: 1; ">
-                Help fund our new kitchen
-                <div class="container" style="display:inline-block;">
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>
-                    </div>
-                </div>
-                <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"
-                    target="_blank" style="text-decoration: underline; color: white;">Donate at GoFundMe</a>
-                <div style="margin-top: -20px">
-                    ~2% Raised by 63 People
-                </div>
-            </div>
-            <!--flex: 1;   flex-grow: 1;-->
-            <div class="gofundmead-button col" style="flex: 1;   flex-shrink: 0;flex-grow: 1;">
-                <button id="gofundmead-close"
-                    style="background-color: transparent;border-color: transparent; float: right; vertical-align: center;"><i
-                        class="fa  fa-times" style="color: white; font-size: 2.5rem;"></i></button>
-            </div>
-        </div>
-
-        <div class="header-logo">
+         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo.svg" alt="Homepage">
             </a>
@@ -40,7 +14,7 @@ function addHeader() {
         
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
-        <nav class="header-nav" style="background-color: #000">
+        <nav class="header-nav" style="background-color: #000; margin-top: 65px; top: 0;">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content" style="background-color: #000">
@@ -92,5 +66,179 @@ function addHeader() {
         </a>
 
     </header> <!-- end s-header -->
+    
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- The social media icon bar -->
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/Food4Lives" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
+      <a href="https://twitter.com/Food_For_Lives" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+      <a href="https://www.instagram.com/food4livesatl" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> 
+<!--      <a href="#" class="google" target="_blank"><i class="fa fa-google"></i></a> -->
+<!--      <a href="#" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>-->
+      <a href="https://www.youtube.com/channel/UCZ5EhUlijz4xwjaNUrtGXSw" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
+    </div>
+    
+<!--    <a href="https://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a><br>-->
+<!--<a href="https://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a><br>-->
+<!--<a href="https://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>-->
+<!--    <aside id="sticky-social">-->
+<!--    <ul>-->
+<!--        <li><a href="#" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>-->
+<!--        <li><a href="#" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>-->
+<!--        <li><a href="#" class="entypo-gplus" target="_blank"><span>Google+</span></a></li>-->
+<!--        <li><a href="#" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>-->
+<!--        <li><a href="#" class="entypo-instagrem" target="_blank"><span>Instagram</span></a></li>-->
+<!--        <li><a href="#" class="entypo-stumbleupon" target="_blank"><span>StumbleUpon</span></a></li>-->
+<!--        <li><a href="#" class="entypo-pinterest" target="_blank"><span>Pinterest</span></a></li>-->
+<!--        <li><a href="#" class="entypo-flickr" target="_blank"><span>Flickr</span></a></li>-->
+<!--        <li><a href="#" class="entypo-tumblr" target="_blank"><span>Tumblr</span></a></li>-->
+<!--    </ul>-->
+<!--</aside>-->
+    `);
+}
+//     <header class="s-header card">
+//     <!--display: flex; width: 100%;align-items: stretch;-->
+//     <div id="gofundmead" class="" style="visibility: hidden; display: flex;">
+//         <!--flex: 0 0 65%;  flex-grow: 1;-->
+//         <div class="gofundmead-text"
+//             style="color: white; line-height: 50px;vertical-align: center;text-align: center;font-family: 'Josefin Sans', sans-serif;   flex: 0 0 85%;  flex-shrink: 0;flex-grow: 1; ">
+//             Help fund our new kitchen
+//             <div class="container" style="display:inline-block;">
+//                 <div class="progress2 progress-moved">
+//                     <div class="progress-bar2" >
+//                     </div>
+//                 </div>
+//             </div>
+//             <a href="https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives"
+//                 target="_blank" style="text-decoration: underline; color: white;">Donate at GoFundMe</a>
+//             <div style="margin-top: -20px">
+//                 ~2% Raised by 63 People
+//             </div>
+//         </div>
+//         <!--flex: 1;   flex-grow: 1;-->
+//         <div class="gofundmead-button col" style="flex: 1;   flex-shrink: 0;flex-grow: 1;">
+//             <button id="gofundmead-close"
+//                 style="background-color: transparent;border-color: transparent; float: right; vertical-align: center;"><i
+//                     class="fa  fa-times" style="color: white; font-size: 2.5rem;"></i></button>
+//         </div>
+//     </div>
+//
+
+
+function addContact() {
+    $("#contact-us-dynamic").replaceWith(`
+        <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <!--<div class="contact__line"></div>-->
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Please Reach out for next Event </h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+                <form action="https://formspree.io/food4life.volunteers@gmail.com" method="POST">
+                    <fieldset>
+                        <div class="form-field" style="color: white;">
+                            <input type="text" name="name" id="contactName" placeholder="Your Name" value=""
+                                minlength="2" required="" aria-required="true" class="full-width" style="color: white;">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="email" id="contactEmail" placeholder="Your Email" value=""
+                                required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea type="text" name="extra_mesage" id="contactMessage" placeholder="Your Message"
+                                rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <input type="submit" value="Submit" class="full-width btn--primary" id="contact_us">
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div>
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            1122 Old Chattahoochee Ave NW, <br>
+                            Atlanta, GA <br>
+                            30318 US
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            contact@food4lives.org<br>
+
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: +1(404) 542-2572<br>
+                        </p>
+                    </div>
+
+                    <!-- <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>  end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
     `);
 }

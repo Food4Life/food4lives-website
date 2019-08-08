@@ -930,117 +930,121 @@
     </section> <!-- end s-clients -->
 
 
+
     <!-- contact
     ================================================== -->
-    <section id="contact" class="s-contact">
+    <span id="contact-us-dynamic"></span>
+    <script>addContact();</script>
 
-        <div class="overlay"></div>
-        <!--<div class="contact__line"></div>-->
+<!--    <section id="contact" class="s-contact">-->
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Please Reach out for next Event </h1>
-            </div>
-        </div>
+<!--        <div class="overlay"></div>-->
+<!--        &lt;!&ndash;<div class="contact__line"></div>&ndash;&gt;-->
 
-        <div class="row contact-content" data-aos="fade-up">
+<!--        <div class="row section-header" data-aos="fade-up">-->
+<!--            <div class="col-full">-->
+<!--                <h3 class="subhead">Contact Us</h3>-->
+<!--                <h1 class="display-2 display-2&#45;&#45;light">Please Reach out for next Event </h1>-->
+<!--            </div>-->
+<!--        </div>-->
 
-            <div class="contact-primary">
+<!--        <div class="row contact-content" data-aos="fade-up">-->
 
-                <h3 class="h6">Send Us A Message</h3>
-                <form action="https://formspree.io/food4life.volunteers@gmail.com" method="POST">
-                    <fieldset>
-                        <div class="form-field" style="color: white;">
-                            <input type="text" name="name" id="contactName" placeholder="Your Name" value=""
-                                minlength="2" required="" aria-required="true" class="full-width" style="color: white;">
-                        </div>
-                        <div class="form-field">
-                            <input type="email" name="email" id="contactEmail" placeholder="Your Email" value=""
-                                required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea type="text" name="extra_mesage" id="contactMessage" placeholder="Your Message"
-                                rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <input type="submit" value="Submit" class="full-width btn--primary" id="contact_us">
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
+<!--            <div class="contact-primary">-->
 
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
+<!--                <h3 class="h6">Send Us A Message</h3>-->
+<!--                <form action="https://formspree.io/food4life.volunteers@gmail.com" method="POST">-->
+<!--                    <fieldset>-->
+<!--                        <div class="form-field" style="color: white;">-->
+<!--                            <input type="text" name="name" id="contactName" placeholder="Your Name" value=""-->
+<!--                                minlength="2" required="" aria-required="true" class="full-width" style="color: white;">-->
+<!--                        </div>-->
+<!--                        <div class="form-field">-->
+<!--                            <input type="email" name="email" id="contactEmail" placeholder="Your Email" value=""-->
+<!--                                required="" aria-required="true" class="full-width">-->
+<!--                        </div>-->
+<!--                        <div class="form-field">-->
+<!--                            <textarea type="text" name="extra_mesage" id="contactMessage" placeholder="Your Message"-->
+<!--                                rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>-->
+<!--                        </div>-->
+<!--                        <div class="form-field">-->
+<!--                            <input type="submit" value="Submit" class="full-width btn&#45;&#45;primary" id="contact_us">-->
+<!--                            <div class="submit-loader">-->
+<!--                                <div class="text-loader">Sending...</div>-->
+<!--                                <div class="s-loader">-->
+<!--                                    <div class="bounce1"></div>-->
+<!--                                    <div class="bounce2"></div>-->
+<!--                                    <div class="bounce3"></div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </fieldset>-->
+<!--                </form>-->
+<!--                &lt;!&ndash; contact-warning &ndash;&gt;-->
+<!--                <div class="message-warning">-->
+<!--                    Something went wrong. Please try again.-->
+<!--                </div>-->
 
-            </div>
+<!--                &lt;!&ndash; contact-success &ndash;&gt;-->
+<!--                <div class="message-success">-->
+<!--                    Your message was sent, thank you!<br>-->
+<!--                </div>-->
 
-            <div class="contact-secondary">
-                <div class="contact-info">
+<!--            </div>-->
 
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+<!--            <div class="contact-secondary">-->
+<!--                <div class="contact-info">-->
 
-                    <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>
-                            1122 Old Chattahoochee Ave NW, <br>
-                            Atlanta, GA <br>
-                            30318 US
-                        </p>
-                    </div>
+<!--                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>-->
 
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            contact@food4lives.org<br>
+<!--                    <div class="cinfo">-->
+<!--                        <h5>Where to Find Us</h5>-->
+<!--                        <p>-->
+<!--                            1122 Old Chattahoochee Ave NW, <br>-->
+<!--                            Atlanta, GA <br>-->
+<!--                            30318 US-->
+<!--                        </p>-->
+<!--                    </div>-->
 
-                        </p>
-                    </div>
+<!--                    <div class="cinfo">-->
+<!--                        <h5>Email Us At</h5>-->
+<!--                        <p>-->
+<!--                            contact@food4lives.org<br>-->
 
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone: +1(404) 542-2572<br>
-                        </p>
-                    </div>
+<!--                        </p>-->
+<!--                    </div>-->
 
-                    <!-- <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>  end contact-social -->
+<!--                    <div class="cinfo">-->
+<!--                        <h5>Call Us At</h5>-->
+<!--                        <p>-->
+<!--                            Phone: +1(404) 542-2572<br>-->
+<!--                        </p>-->
+<!--                    </div>-->
 
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
+<!--                    &lt;!&ndash; <ul class="contact-social">-->
+<!--                        <li>-->
+<!--                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>-->
+<!--                        </li>-->
+<!--                    </ul>  end contact-social &ndash;&gt;-->
 
-        </div> <!-- end contact-content -->
+<!--                </div> &lt;!&ndash; end contact-info &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end contact-secondary &ndash;&gt;-->
 
-    </section> <!-- end s-contact -->
+<!--        </div> &lt;!&ndash; end contact-content &ndash;&gt;-->
+
+<!--    </section> &lt;!&ndash; end s-contact &ndash;&gt;-->
 
 
     <!-- footer
