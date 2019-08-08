@@ -15,8 +15,9 @@ function addHeader() {
             <a id="donors-nav" class=" nav-buttons" href="donors.html">Monthly Donors</a>
             <a id="volunteer-nav" class=" nav-buttons" href="events.html">Volunteer</a>
             <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
-            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"
-            href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>
+<!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
+<!--            href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>-->
+            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Sponsor A Meal</a>
         </span>
 
 <!--        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
@@ -37,7 +38,8 @@ function addHeader() {
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
                     <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
-                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>
+<!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>-->
+                    <li><a class="" href="donate.html" title="about">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="events.html" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
