@@ -3780,7 +3780,7 @@ footer .row {
 
 @media only screen and (max-width: 800px) {
     footer .row {
-        max-width: 600px;
+        max-width: 300px;
     }
     .footer-main .left {
         padding-right: 15px;
@@ -3895,15 +3895,7 @@ a:active {
     z-index: 100;
 }
 
-/* Style the icon bar links */
-.icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-}
+
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
@@ -3938,4 +3930,28 @@ a:active {
 .youtube {
     background: #bb0000;
     color: white;
+}
+
+
+@media only screen and (max-width: 8000px) {
+    /* Style the icon bar links */
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    /* Style the icon bar links */
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 8px;
+    }
 }

@@ -1431,6 +1431,30 @@ input::placeholder{
         visibility: visible;
         margin-top: 65px;
     }
+    #donate-center-images {
+        text-align: center;
+        display: flex;
+        vertical-align: top;
+        justify-content: center;
+        width: 100%;
+    }
+    .donate-images {
+        left: 0;
+    }
+    .donate-page-main {
+        top: 65px;
+        background: url('../images/IMG-20181115-WA0024.jpg');
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-top: 46px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+    .donate-footer-space {
+        padding-top: 850px;
+    }
 }
 @media only screen and (max-width: 820px) {
     #sponsor-nav, #donors-nav, #donate-nav, #volunteer-nav {
@@ -1443,4 +1467,30 @@ input::placeholder{
         visibility: hidden;
         margin-top: 0px;
     }
+    #donate-center-images {
+        text-align: center;
+        display: block;
+        vertical-align: top;
+        justify-content: left;
+        width: 100%;
+    }
+    .donate-images {
+        margin-left: 30%;
+    }
+    .donate-page-main {
+        top: 20px;
+        background: url('../images/IMG-20181115-WA0024.jpg');
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-top: 46px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+    .donate-footer-space {
+        padding-top: 1450px;
+    }
 }
+
+
