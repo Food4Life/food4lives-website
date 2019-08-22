@@ -12,9 +12,21 @@ function carouselMover() {
         x = 4;
     }else if (x == 4){
         $(".parallax-slider").attr("src","images/Carousel-04.jpg");
+        x = 5;
+    }else if (x == 5){
+        $(".parallax-slider").attr("src","images/Carousel-05.jpg");
+        x = 6;
+    }else if (x == 6){
+        $(".parallax-slider").attr("src","images/Carousel-06.jpg");
+        x = 7;
+    }else if (x == 7){
+        $(".parallax-slider").attr("src","images/Carousel-07.jpg");
+        x = 8;
+    }else if (x == 8){
+        $(".parallax-slider").attr("src","images/Carousel-08.jpg");
         x = 0;
     }else{
-        $(".parallax-slider").attr("src","images/Carousel-05.jpg");
+        $(".parallax-slider").attr("src","images/Carousel-09.jpg");
         x = 1;
     }
 }
