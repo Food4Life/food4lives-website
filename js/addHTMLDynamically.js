@@ -32,17 +32,16 @@ function addHeader() {
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content" style="background-color: #000">
-                <h3 style="color: #ff7043">Navigation</h3>
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
                     <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
 <!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>-->
-                    <li><a class="" href="donate.html" title="about">Sponsor A Meal</a></li>
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="events.html" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
+                    <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Sponsor A Meal</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->
