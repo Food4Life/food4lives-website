@@ -23,7 +23,7 @@ function addHeader() {
 <!--        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
 <!--            href="https://donorbox.org/food4lives-donation" style="margin-top: 65px;">Sponsor A Meal</a>-->
 <!--        <a id="donate-nav" class=" nav-buttons" href="donate-things.html" style="margin-top: 65px;">Give Items</a>-->
-<!--        <a id="volunteer-nav" class=" nav-buttons" href="events.html" style="margin-top: 65px;">Volunteer</a>-->
+<!--        <a id="volunteer-nav" class=" nav-buttons" href="https://www.eventbrite.com/o/food4lives-23363670834" style="margin-top: 65px;">Volunteer</a>-->
 <!--        <a id="donors-nav" class=" nav-buttons" href="donors.html" style="margin-top: 65px;">Monthly Donors</a>-->
 
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
@@ -39,7 +39,7 @@ function addHeader() {
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
 <!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>-->
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
-                    <li><a class="" href="events.html" title="services">Volunteer</a></li>
+                    <li><a class="" href="https://www.eventbrite.com/o/food4lives-23363670834" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
                     <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Sponsor A Meal</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
@@ -271,7 +271,8 @@ function addFooter() {
 
         <div class="col-full tab-full left footer-desc" style="font-family: 'Josefin Sans', sans-serif; text-align: center;">
 
-            <div style="text-align: center;">
+        
+        <div style="text-align: center;">
                 <div class="footer-logo" style="display: inline-block;"></div>
             </div>
             Food for lives is the organization, working to focus on underserved and low-resourced communities.
@@ -279,6 +280,12 @@ function addFooter() {
             With the support of volunteers, the food for life is helping homeless to build a better future.
 
 
+        </div>
+
+        <div style="text-align: center;">
+            <a href="https://www.guidestar.org/profile/83-1082695" target="_blank">
+                <img style="margin-top:20px;" src="https://widgets.guidestar.org/gximage2?o=9748149&l=v4" />
+            </a>  
         </div>
 
         <!--<div class="col-six tab-full right footer-subscribe">-->

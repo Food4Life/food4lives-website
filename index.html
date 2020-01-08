@@ -36,6 +36,19 @@
                 padding: 7px;
             }
         }
+        .sponsor-img {
+            display: inline-flex;
+            padding: 15px;
+            height: 100px;
+        }
+        .sponsors {
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 100px;
+            padding: 20px;
+            max-width: 800px;
+            margin-left:auto;
+            margin-right: auto;
+        }
     </style>
 
     <!-- Add AMP for main Page Of Possible -->
@@ -64,7 +77,11 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
-    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
+    <script>
+        window.DonorBox = {
+            widgetLinkClassName: 'custom-dbox-popup'
+        }
+    </script>
 
     <!--<link rel="stylesheet" href="css/standardize.css">-->
     <!--<link rel="stylesheet" href="css/index-grid.css">-->
@@ -84,7 +101,9 @@
     <!-- header
     ================================================== -->
     <span id="header-get-area"></span>
-    <script>addHeader();</script>
+    <script>
+        addHeader();
+    </script>
 
     <!-- home
     ================================================== -->
@@ -131,10 +150,19 @@
                         <!--<a href="https://donorbox.org/food4lives-donation" class="custom-dbox-popup btn btn&#45;&#45;stroke btn-donate btn-custom-hover ">-->
                         <!--<i class="fa fa-heart"></i> Donate-->
                         <!--</a>-->
-                        <a href="events.html" class=" pure-material-button-contained " id="upcoming-events">
+                        <a href="https://www.eventbrite.com/o/food4lives-23363670834" class=" pure-material-button-contained " id="upcoming-events">
                             Upcoming Events
                         </a>
                     </form>
+                    <div class="sponsors">
+                        <img class="sponsor-img" src="images/kroger.png" />
+                        <img class="sponsor-img" src="images/homedepot.png" />
+                        <img class="sponsor-img" src="images/vmware.png" />
+                        <img class="sponsor-img" src="images/statefarm.png" />
+                        <img class="sponsor-img" src="images/amazon.svg" />
+                        <img class="sponsor-img" src="images/publix.png" />
+                    </div>
+                    
                     <!-- <a href="#about" class="smoothscroll btn btn--stroke btn-donate">
                         <i class="fa fa-heart"></i> Donate
                     </a> -->
@@ -191,12 +219,12 @@
                 <p
                     style="color:white;font-family: 'montserrat', sans-serif;font-family: 'Josefin Sans', sans-serif;font-size: 2.5rem;">
                     40 million people face hunger in the U.S. today — including more than 12 million children and more
-                    than five million seniors. The world is hungry, but the emptiness goes far beyond the table.
+                    than five million seniors. The world is hungry, but the emptiness goes far beyond the table
                     <!--In Georgia, our poverty statistics can be overwhelming. According to U.S. census data, Georgia is second worst state in the nation for child homelessness, and we are sixth in the nation for states with the highest number of unsheltered people.-->
                     <!--Together, we can feed hungry people and change this grim statistic. We can reach families in need  with food and other essentials that offer hope for a better future.-->
                     <!--We don't live in a perfect world, and there's never going to be a perfect time to give—but there are always people out there in need of help.-->
                     <br />
-                    Join us to win the fight against homelessness and the underfed .
+                    Join us to win the fight against homelessness and the underfed
                 </p>
             </div>
         </div> <!-- end about-desc -->
@@ -271,7 +299,7 @@
                 </a>
             </div>
             <div class="  service-item raisedbox card" data-aos="fade-up">
-                <a href="events.html">
+                <a href="https://www.eventbrite.com/o/food4lives-23363670834">
                     <div class="service-icon">
                         <i><img src="images/Volunteer.svg"></i>
                     </div>
@@ -949,7 +977,9 @@
     <!-- contact
     ================================================== -->
     <span id="contact-us-dynamic"></span>
-    <script>addContact();</script>
+    <script>
+        addContact();
+    </script>
 
     <!--    <section id="contact" class="s-contact">-->
 
@@ -1062,7 +1092,9 @@
     <!--    </section> &lt;!&ndash; end s-contact &ndash;&gt;-->
 
     <span id="footer-dynamic"></span>
-    <script>addFooter();</script>
+    <script>
+        addFooter();
+    </script>
     <!--    &lt;!&ndash; footer-->
     <!--    ================================================== &ndash;&gt;-->
     <!--    <footer>-->
@@ -1184,8 +1216,8 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
 
 </body>
 
