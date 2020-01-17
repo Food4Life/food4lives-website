@@ -87,7 +87,7 @@ function addHeader() {
     
     <!-- The social media icon bar -->
     <div class="icon-bar">
-      <a href="https://www.facebook.com/Food4Lives" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
+      <a href="https://www.facebook.com/food4livesatl" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
       <a href="https://twitter.com/Food_For_Lives" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
       <a href="https://www.instagram.com/food4livesatl" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> 
 <!--      <a href="#" class="google" target="_blank"><i class="fa fa-google"></i></a> -->
