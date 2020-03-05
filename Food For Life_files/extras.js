@@ -47,7 +47,7 @@ function test() {
 }
 $(document).ready(function(){
     // $("#home").attr("data-image-src", "images/portfolio/gallery/6.jpg");
-    setInterval(test,5000);
+    setInterval(test,3000);
 });
 
 $('.grid').masonry({
