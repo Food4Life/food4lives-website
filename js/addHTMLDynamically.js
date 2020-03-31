@@ -18,6 +18,7 @@ function addHeader() {
 <!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
 <!--            href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>-->
             <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Sponsor A Meal</a>
+            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a>
         </span>
 
 <!--        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
@@ -42,6 +43,7 @@ function addHeader() {
                     <li><a class="" href="https://www.eventbrite.com/o/food4lives-23363670834" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
                     <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Sponsor A Meal</a></li>
+                    <li><a class="pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->
