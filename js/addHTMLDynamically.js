@@ -12,7 +12,7 @@ function addHeader() {
         <span style="text-align: center;  display: flex; align-items: center; justify-content: center;">
             <a id="donors-nav" class=" nav-buttons" href="contact.html">Contact Us</a>
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>
-            <a id="donors-nav" class=" nav-buttons" href="donors.html">Monthly Donors</a>
+            <a id="donors-nav" class=" nav-buttons" href="donors.html">Donors</a>
             <a id="volunteer-nav" class=" nav-buttons" href="https://www.eventbrite.com/o/food4lives-23363670834">Volunteer</a>
             <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
 <!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
@@ -25,7 +25,7 @@ function addHeader() {
 <!--            href="https://donorbox.org/food4lives-donation" style="margin-top: 65px;">Sponsor A Meal</a>-->
 <!--        <a id="donate-nav" class=" nav-buttons" href="donate-things.html" style="margin-top: 65px;">Give Items</a>-->
 <!--        <a id="volunteer-nav" class=" nav-buttons" href="https://www.eventbrite.com/o/food4lives-23363670834" style="margin-top: 65px;">Volunteer</a>-->
-<!--        <a id="donors-nav" class=" nav-buttons" href="donors.html" style="margin-top: 65px;">Monthly Donors</a>-->
+<!--        <a id="donors-nav" class=" nav-buttons" href="donors.html" style="margin-top: 65px;">Donors</a>-->
 
         <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
@@ -41,7 +41,7 @@ function addHeader() {
 <!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>-->
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="https://www.eventbrite.com/o/food4lives-23363670834" title="services">Volunteer</a></li>
-                    <li><a class="" href="donors.html" title="donors">Monthly Donors</a></li>
+                    <li><a class="" href="donors.html" title="donors">Donors</a></li>
                     <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Sponsor A Meal</a></li>
                     <li><a class="custom-dbox-popup pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
