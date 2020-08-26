@@ -16,13 +16,13 @@ function addHeader() {
             <a id="volunteer-nav" class=" nav-buttons" href="https://www.eventbrite.com/o/food4lives-23363670834">Volunteer</a>
             <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
 <!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
-<!--            href="https://donorbox.org/food4lives-donation">Sponsor A Meal</a>-->
-            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Sponsor A Meal</a>
+<!--            href="https://donorbox.org/food4lives-donation">Donate</a>-->
+            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a>
             <a id="sponsor-nav" class="custom-dbox-popup pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a>
         </span>
 
 <!--        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
-<!--            href="https://donorbox.org/food4lives-donation" style="margin-top: 65px;">Sponsor A Meal</a>-->
+<!--            href="https://donorbox.org/food4lives-donation" style="margin-top: 65px;">Donate</a>-->
 <!--        <a id="donate-nav" class=" nav-buttons" href="donate-things.html" style="margin-top: 65px;">Give Items</a>-->
 <!--        <a id="volunteer-nav" class=" nav-buttons" href="https://www.eventbrite.com/o/food4lives-23363670834" style="margin-top: 65px;">Volunteer</a>-->
 <!--        <a id="donors-nav" class=" nav-buttons" href="donors.html" style="margin-top: 65px;">Donors</a>-->
@@ -38,11 +38,11 @@ function addHeader() {
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
                     <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
-<!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Sponsor A Meal</a></li>-->
+<!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Donate</a></li>-->
                     <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
                     <li><a class="" href="https://www.eventbrite.com/o/food4lives-23363670834" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Donors</a></li>
-                    <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Sponsor A Meal</a></li>
+                    <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li>
                     <li><a class="custom-dbox-popup pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
                     <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
