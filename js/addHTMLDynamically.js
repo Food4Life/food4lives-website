@@ -39,7 +39,7 @@ function addHeader() {
                     <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
 <!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Donate</a></li>-->
-                    <li><a class="" href="donate-things.html" title="about">Give Items</a></li>
+<!--                <li><a class="" href="athens.html" title="about">Athens</a></li>-->
                     <li><a class="" href="volunteer.html" title="services">Volunteer</a></li>
                     <li><a class="" href="donors.html" title="donors">Donors</a></li>
                     <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li>
