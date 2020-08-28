@@ -14,7 +14,7 @@ function addHeader() {
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>
             <a id="donors-nav" class=" nav-buttons" href="donors.html">Donors</a>
             <a id="volunteer-nav" class=" nav-buttons" href="volunteer.html">Volunteer</a>
-            <a id="donate-nav" class=" nav-buttons" href="donate-things.html">Give Items</a>
+<!--        <a id="athens-nav" class=" nav-buttons" href="athens.html">Athens</a>-->            
 <!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
 <!--            href="https://donorbox.org/food4lives-donation">Donate</a>-->
             <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a>
