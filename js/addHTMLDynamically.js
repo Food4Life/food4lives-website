@@ -155,8 +155,8 @@ function addContact() {
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Please Reach out for next Event </h1>
+                <h3 class="subhead">Questions?</h3>
+                <h1 class="display-2 display-2--light">Please Contact Us</h1>
             </div>
         </div>
 
