@@ -323,13 +323,22 @@ function addFooter() {
         organization. Donations and contributions are tax deductible as allowed by law.<br>
         1122 Old Chattahoochee Ave NW, Atlanta, GA 30318 US</h4>
 
-    <!-- link to privacy policy -->
+    <!-- link to privacy policy and terms -->
         <div style="text-size: 10px; text-align: center; font-family: 'Josefin Sans', sans-serif;">
             <a href="privacypolicy.html">
                 Privacy Policy
             </a>  
         </div>
-
+        <div style="text-size: 10px; text-align: center; font-family: 'Josefin Sans', sans-serif;">
+            <a>
+                |
+            </a>  
+        </div>
+        <div style="text-size: 10px; text-align: center; font-family: 'Josefin Sans', sans-serif;">
+            <a href="terms.html">
+                Terms and Conditions
+            </a>  
+        </div>
 
     <!--<iframe height="500px" width="100%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=https://www.gofundme.com/feed-atlanta039s-homeless-with-food4lives&image=1&coinfo=1&preview=1" type="text/html"></iframe>-->
 
