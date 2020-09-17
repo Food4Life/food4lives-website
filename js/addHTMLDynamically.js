@@ -324,7 +324,7 @@ function addFooter() {
         1122 Old Chattahoochee Ave NW, Atlanta, GA 30318 US</h4>
 
     <!-- link to privacy policy -->
-        <div style="text-align: center; font-family: 'Josefin Sans', sans-serif;">
+        <div style="text-size: 14px; text-align: center; font-family: 'Josefin Sans', sans-serif;">
             <a href="privacypolicy.html">
                 Privacy Policy
             </a>  
