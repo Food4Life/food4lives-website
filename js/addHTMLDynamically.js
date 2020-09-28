@@ -277,9 +277,9 @@ function addFooter() {
         <div style="text-align: center;">
                 <div class="footer-logo" style="display: inline-block;"></div>
             </div>
-            Food for lives is the organization, working to focus on underserved and low-resourced communities.
-            Volunteers plays a vital role in our efforts to end hunger in the United States.
-            With the support of volunteers, the food for life is helping homeless to build a better future.
+            Food for Lives is an organization, working to focus on underserved and low-resourced communities.
+            Volunteers play a vital role in our efforts to end hunger in the United States.
+            With the support of volunteers, Food for Lives is helping to build a better future for our local homeless communities.
 
 
         </div>
