@@ -286,7 +286,7 @@ function addFooter() {
 
         <div style="text-align: center;">
             <a href="https://www.guidestar.org/profile/83-1082695" target="_blank">
-                <img style="margin-top:20px;" src="https://widgets.guidestar.org/gximage2?o=9748149&l=v4" />
+                <img style="margin-top:20px;" src="./images/bronzeSeal.png" />
             </a>  
         </div>
 
