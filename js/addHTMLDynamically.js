@@ -15,7 +15,7 @@ function addHeader() {
             <a id="donors-nav" class=" nav-buttons" href="donors.html">Donors</a>
             <a id="donors-nav" class=" nav-buttons" href="adoptaday.html">Adopt A Day</a>
             <a id="volunteer-nav" class=" nav-buttons" href="volunteer.html">Volunteer</a>
-            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a>
+            <!-- <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a> -->
             <a id="sponsor-nav" class="custom-dbox-popup pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a>
         </span>
 
@@ -31,12 +31,8 @@ function addHeader() {
                     <li><a class="" href="volunteer.html" title="services">Volunteer</a></li>
                     <li><a class="" href="adoptaday.html" title="donors">Adopt A Day</a></li>
                     <li><a class="" href="donors.html" title="donors">Donors</a></li>
-                    <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li>
+                    <!-- <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li> -->
                     <li><a class="custom-dbox-popup pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
-                    <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
-                    <!--<li><a class="smoothscroll"  href="#volunteers" title="volunteers">Volunteers</a></li>-->
-                    <!--<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>-->
-                    <!--<li><a class="smoothscroll"  href="#home" title="donate">Donate</a></li>-->
                 </ul>
 
                 <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
