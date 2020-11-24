@@ -13,21 +13,11 @@ function addHeader() {
             <a id="donors-nav" class=" nav-buttons" href="contact.html">Contact Us</a>
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>
             <a id="donors-nav" class=" nav-buttons" href="donors.html">Donors</a>
+            <a id="donors-nav" class=" nav-buttons" href="adoptaday.html">Adopt A Day</a>
             <a id="volunteer-nav" class=" nav-buttons" href="volunteer.html">Volunteer</a>
-<!--        <a id="athens-nav" class=" nav-buttons" href="athens.html">Athens</a>-->            
-<!--            <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
-<!--            href="https://donorbox.org/food4lives-donation">Donate</a>-->
             <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a>
             <a id="sponsor-nav" class="custom-dbox-popup pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a>
         </span>
-
-<!--        <a id="sponsor-nav" class="pure-material-button-contained nav-buttons custom-dbox-popup"-->
-<!--            href="https://donorbox.org/food4lives-donation" style="margin-top: 65px;">Donate</a>-->
-<!--        <a id="donate-nav" class=" nav-buttons" href="donate-things.html" style="margin-top: 65px;">Give Items</a>-->
-<!--        <a id="volunteer-nav" class=" nav-buttons" href="volunteer.html" style="margin-top: 65px;">Volunteer</a>-->
-<!--        <a id="donors-nav" class=" nav-buttons" href="donors.html" style="margin-top: 65px;">Donors</a>-->
-
-        <!--<button id="donate-nav" class="pure-material-button-contained">Donate</button>-->
 
         <nav class="header-nav" style="background-color: #000; margin-top: 65px; top: 0;">
 
@@ -38,9 +28,8 @@ function addHeader() {
                     <li class="current"><a class="" href="index.html" title="home">Home</a></li>
                     <li><a class="" href="contact.html" title="contact">Contact Us</a></li>
                     <li class=""><a class="" href="about.html" title="about">About</a></li>
-<!--                    <li><a class="custom-dbox-popup" href="https://donorbox.org/food4lives-donation" title="events">Donate</a></li>-->
-<!--                <li><a class="" href="athens.html" title="about">Athens</a></li>-->
                     <li><a class="" href="volunteer.html" title="services">Volunteer</a></li>
+                    <li><a class="" href="adoptaday.html" title="donors">Adopt A Day</a></li>
                     <li><a class="" href="donors.html" title="donors">Donors</a></li>
                     <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li>
                     <li><a class="custom-dbox-popup pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
@@ -284,7 +273,7 @@ function addFooter() {
 
         </div>
 
-        <div style="text-align: center;">
+        <div style="text-align: center;margin-left:auto;margin-right:auto;">
             <a href="https://www.guidestar.org/profile/83-1082695" target="_blank">
                 <img style="margin-top:20px;" src="./images/bronzeSeal.png" />
             </a>  
