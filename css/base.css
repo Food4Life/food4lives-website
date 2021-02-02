@@ -53,6 +53,32 @@ body {
     margin: 0;
 }
 
+.top-banner {
+    margin-bottom: 30px;
+    margin-top:120px;
+    text-align: center;
+    background-color: #ff7043;
+    color: #fff;
+  }
+  
+  .top-banner a, .top-banner span {
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 820px) {
+    .top-banner {
+        margin-top:64px;
+    }
+  }
+  
+  .top-banner a {
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #fff9e0 !important;
+  }
+
+
 article,
 aside,
 footer,

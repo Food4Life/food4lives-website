@@ -1,6 +1,6 @@
 function addHeader() {
     $("#header-get-area").replaceWith(`
-        <header class="s-header card">
+        <header id="headercard" class="s-header card">
          <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo.svg" alt="Homepage">
@@ -8,7 +8,6 @@ function addHeader() {
         </div>
         </header>
        <header class="s-header card" style="" id="Header2">
-
         <span style="text-align: center;  display: flex; align-items: center; justify-content: center;">
             <a id="donors-nav" class=" nav-buttons" href="contact.html">Contact Us</a>
             <a id="donors-nav" class=" nav-buttons" href="about.html">About</a>

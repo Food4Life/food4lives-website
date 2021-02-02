@@ -5,14 +5,26 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KJRNP7L"></script>
+
 <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NVNDJ38');</script>
-<!-- End Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NVNDJ38');
+    </script>
+    <!-- End Google Tag Manager -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/addHTMLDynamically.js"></script>
 
@@ -42,21 +54,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             .thumb-link {
                 padding: 7px;
             }
+
             .home-content__main {
                 padding-top: 5rem !important;
             }
         }
+
         .sponsor-img {
             display: inline-flex;
             padding: 15px;
             height: 140px;
         }
+
         .sponsors {
             background: rgba(255, 255, 255, 0.75);
             border-radius: 100px;
             padding: 20px;
             max-width: 800px;
-            margin-left:auto;
+            margin-left: auto;
             margin-right: auto;
         }
     </style>
@@ -113,6 +128,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <span id="header-get-area"></span>
     <script>
         addHeader();
+        var donors = [
+            'Thanu caddur',
+            'Pullareddy Thumati',
+            'Kavya Ajay',
+            'Rangarajan Narasimhan',
+            'Anita Ganesh',
+            'Vinay Tadvai',
+            'Karthik Jayakumar',
+            'Reena Srivastava',
+            'Aref El Danaf',
+            'R RAMKUMAR',
+            'Aruna Sadasivan',
+            'Ramesh Bala',
+            'Surendra Pilla',
+            'Shubham Choudhary'
+        ];
+
+        var currentIndex = 0;
+        $("#headercard").append(`<div class="top-banner">
+            <a id="donorbanner" href="/adoptaday.html" target="_blank"><span style="font-size:2rem;">Thanks to our Adopt a Day Donors</span> <br /><span>${donors[currentIndex % donors.length]} | ${donors[currentIndex+1 % donors.length]}</span></a>
+        </div>`);
+        currentIndex = (currentIndex + 2) % donors.length;
+        
+        setInterval(function () {
+            $('#donorbanner').children().last().fadeOut('slow', function () {
+                $('#donorbanner').children().last().remove();
+                var tempStr =
+                    `${donors[currentIndex % donors.length]} | ${donors[currentIndex+1 % donors.length]}`;
+                $('#donorbanner').append(`<span>${tempStr}</span>`);
+                currentIndex = (currentIndex + 2) % donors.length;
+            });
+        }, 2500);
     </script>
 
     <!-- home
@@ -160,7 +207,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <!--<a href="https://donorbox.org/food4lives-donation" class="custom-dbox-popup btn btn&#45;&#45;stroke btn-donate btn-custom-hover ">-->
                         <!--<i class="fa fa-heart"></i> Donate-->
                         <!--</a>-->
-                        <a href="https://donorbox.org/coronavirus-relief-fund-1" style="font-size:12px;color:white;background: rgb(65, 113, 255);" class="custom-dbox-popup pure-material-button-contained" id="upcoming-events">
+                        <a href="https://donorbox.org/coronavirus-relief-fund-1"
+                            style="font-size:12px;color:white;background: rgb(65, 113, 255);"
+                            class="custom-dbox-popup pure-material-button-contained" id="upcoming-events">
                             Support Coronavirus Relief Fund
                         </a>
                     </form>
@@ -976,13 +1025,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3 class="subhead" style="font-size: 2.7rem;margin-bottom: 20px;">Our Corporate Sponsors </h3>
             </div>
             <div class="" style="text-align: center;">
-            <img class="sponsor-img" src="images/kroger.png" />
-            <img class="sponsor-img" src="images/sprouts.png" />
-            <img class="sponsor-img" src="images/homedepot.png" />
-            <img class="sponsor-img" src="images/vmware.png" />
-            <img class="sponsor-img" src="images/statefarm.png" />
-            <img class="sponsor-img" style="background-color: white;" src="images/amazon.svg" />
-            <img class="sponsor-img" src="images/publix.png" />
+                <img class="sponsor-img" src="images/kroger.png" />
+                <img class="sponsor-img" src="images/sprouts.png" />
+                <img class="sponsor-img" src="images/homedepot.png" />
+                <img class="sponsor-img" src="images/vmware.png" />
+                <img class="sponsor-img" src="images/statefarm.png" />
+                <img class="sponsor-img" style="background-color: white;" src="images/amazon.svg" />
+                <img class="sponsor-img" src="images/publix.png" />
             </div>
         </div>
 
