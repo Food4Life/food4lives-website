@@ -15,7 +15,7 @@ function addHeader() {
             <a id="donors-nav" class=" nav-buttons" href="adoptaday.html">Adopt A Day</a>
             <a id="volunteer-nav" class=" nav-buttons" href="volunteer.html">Volunteer</a>
             <!-- <a id="sponsor-nav" class="pure-material-button-contained nav-buttons" href="donate.html">Donate</a> -->
-            <a id="sponsor-nav" class="custom-dbox-popup pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a>
+            <a id="sponsor-nav" target="_blank" class="pure-material-button-contained nav-buttons" style="font-size:12px;color: white;background: rgba(0, 255, 76, 0.822);" href="https://www.eventbrite.com/e/365-mile-365th-day-service-fundraiser-tickets-142405852739?aff=ebdssbonlinesearch">365 Day Virtual Run</a>
         </span>
 
         <nav class="header-nav" style="background-color: #000; margin-top: 65px; top: 0;">
@@ -31,7 +31,7 @@ function addHeader() {
                     <li><a class="" href="adoptaday.html" title="donors">Adopt A Day</a></li>
                     <li><a class="" href="donors.html" title="donors">Donors</a></li>
                     <!-- <li><a class="pure-material-button-contained" style="color: white;background: rgb(255, 112, 67);" href="donate.html">Donate</a></li> -->
-                    <li><a class="custom-dbox-popup pure-material-button-contained" style="font-size:12px;color: white;background: rgb(65, 113, 255);" href="https://donorbox.org/coronavirus-relief-fund-1">Coronavirus Relief Fund</a></li>
+                    <li><a class="pure-material-button-contained" style="font-size:12px;color: white;background: rgba(0, 255, 76, 0.822);" href="https://www.eventbrite.com/e/365-mile-365th-day-service-fundraiser-tickets-142405852739?aff=ebdssbonlinesearch">365 Day Virtual Run</a></li>
                 </ul>
 
                 <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
