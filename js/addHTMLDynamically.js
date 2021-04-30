@@ -149,7 +149,7 @@ function addContact() {
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
-                <form action="https://formspree.io/food4life.volunteers@gmail.com" method="POST">
+                <form action="https://formspree.io/leo@food4lives.org" method="POST">
                     <fieldset>
                         <div class="form-field" style="color: white;">
                             <input type="text" name="name" id="contactName" placeholder="Your Name" value=""
@@ -205,7 +205,7 @@ function addContact() {
                     <div class="cinfo">
                         <h5>Email Us At</h5>
                         <p>
-                            contact@food4lives.org<br>
+                            leo@food4lives.org<br>
 
                         </p>
                     </div>
