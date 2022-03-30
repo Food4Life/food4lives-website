@@ -213,7 +213,7 @@ function addContact() {
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: +1 (404) 883-7039<br>
+                            Phone: +1 (770) 905-4727<br>
                         </p>
                     </div>
 
