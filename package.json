@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Food4Life/food4lives-website#readme",
   "dependencies": {
-    "nodemailer": "^4.6.8"
+    "nodemailer": "^6.6.1"
   }
 }
